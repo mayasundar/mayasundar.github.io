@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Karla";
+  src: url("fonts/Karla/Karla-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Questa";
+  src: url("fonts/questa/2-Questa_Sans_Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  margin-top: 100px;
+  background: linear-gradient(180deg, #add8ee 0%, #add8ee 100%);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Karla";
+  color: #002f44;
+  font-size: 56px;
+  line-height: 44px;
+}
+img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Karla";
+  font-size: 25px;
+  line-height: 36px;
+  color: #002f44;
+}
+
+p,
+li {
+  margin-bottom: 20px;
+  font-family: "Questa";
+  color: #002f44;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+a {
+  -webkit-transition: border-color 200ms ease, color 200ms ease;
+  transition: border-color 200ms ease, color 200ms ease;
+  color: #002f44;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-color: #2b2b2b;
+  color: #2b2b2b;
+}
+
+a:focus {
+  border-bottom-color: #2b2b2b;
+  color: #2b2b2b;
+}
+
+.content {
+  margin-top: 60px;
+}
+.title {
+  margin-top: -20px;
+  top: 0px;
+  padding-right: 25px;
+  float: left;
+  border-bottom: 0px none #000;
+  font-family: Karla;
+  color: #002f44;
+  font-size: 25px;
+  line-height: 30px;
+  display: block;
+}
+.social-icon {
+  margin-top: -20px;
+  padding-right: 25px;
+  float: right;
+  color: #002f44;
+  border-bottom: 0px none #000;
+}
+
+span {
+  color: #002f44;
+}
+
+.projects {
+  font-family: Karla;
+  color: #002f44;
+  font-size: 25px;
+  line-height: 30px;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
