@@ -1,34 +1,34 @@
 @font-face {
   font-family: "Karla";
-  src: url("fonts/Karla/Karla-Bold.ttf") format("truetype");
+  src: url("/css/fonts/Karla/Karla-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("fonts/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
+  src: url("/css/fonts/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Questa";
-  src: url("fonts/questa/2-Questa_Sans_Regular.otf") format("opentype");
+  src: url("/css/fonts/questa/2-Questa_Sans_Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url("fonts/Helvetica/Helvetica-01.ttf") format("truetype");
+  src: url("/css/fonts/Helvetica/Helvetica-01.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("/css/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
