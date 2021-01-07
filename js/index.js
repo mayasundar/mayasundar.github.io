@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.about').on('click',function()){
+  $('p').on('click',function()){
     $(this).html('hi');
   });
 
