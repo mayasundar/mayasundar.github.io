@@ -6,27 +6,6 @@
 }
 
 @font-face {
-  font-family: "Proxima Nova";
-  src: url("/css/fonts/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Questa";
-  src: url("/css/fonts/questa/2-Questa_Sans_Regular.otf") format("opentype");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Helvetica";
-  src: url("/css/fonts/Helvetica/Helvetica-01.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
   font-family: "Roboto";
   src: url("/css/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
@@ -211,4 +190,47 @@ span {
   box-shadow: 0px 3px 0px #FFB6B6;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+
+
+
+table {
+  color: #d25e5e;
+  font-size: 15px;
+  line-height: 30px;
+  border-left: 4px solid #d25e5e;
+  /* border: none; */
+  border-bottom: none;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+/* table td:first-child {
+  border-left: none;
+  padding-right: 20px;
+} */
+
+/* table td:nth-child(2) {
+  border-right: none;
+  padding-left: 20px;
+  font-size: 11px !important;
+  width: 64%;
+} */
+
+table td {
+  padding-right:20px;
+  padding-left:20px;
+  border-bottom: none;
+  border-top: none;
+  border-right:none;
+}
+
+td, th {
+  /* border: 2px solid #D14027; */
+  padding-right:20px;
+  padding-left:20px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
