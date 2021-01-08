@@ -37,10 +37,12 @@ h1 {
 }
 img {
   border-radius: 50%;
-  height: 30%;
-  width: 30%;
-  align-items:right;
+  height: 40%;
+  width: 40%;
+  align-items:center;
   text-align: center;
+  display:block;
+  margin:auto;
 }
 h2 {
   margin-top: 20px;
@@ -92,20 +94,6 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#about-content{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-#about-me{
-  margin-right: 50px;
-  width: 330px;
-  min-width: 330px;
 }
 
 
