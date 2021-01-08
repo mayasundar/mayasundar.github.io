@@ -1,16 +1,3 @@
-@font-face {
-  font-family: "Karla";
-  src: url("/css/fonts/Karla/Karla-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("/css/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-}
 
 @font-face {
   font-family: "Overpass";
@@ -88,13 +75,21 @@ a:focus {
 }
 
 #about {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+#experience {
+  height: 100vh;
+}
+
+#portfolio {
+  height: 100vh;
+}
+
 
 
 .title {
@@ -256,15 +251,6 @@ td, th {
   float:left;
 }
 
-/* hello from here onwards...... */
-.container {
-  width: 100%;
-  margin: 2rem auto;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1.5rem;
+.fadein {
+    opacity:0;
 }
