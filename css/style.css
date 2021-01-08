@@ -85,13 +85,29 @@ a:focus {
   color: #2b2b2b;
 }
 
-.about {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  margin:0;
+#about {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+#about-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#about-me{
+  margin-right: 50px;
+  width: 330px;
+  min-width: 330px;
+}
+
 
 .title {
   margin-top: -20px;
