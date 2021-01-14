@@ -1,12 +1,4 @@
 
-@font-face {
-  font-family: "Overpass";
-  src: url("/css/fonts/Overpass/Overpass-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-}
-
-
 body {
   margin-top: 100px;
   background: linear-gradient(180deg, #fdf5ef 0%, #fdf5ef 100%);
