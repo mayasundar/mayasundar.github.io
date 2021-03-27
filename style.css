@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Merriweather&display=swap');
+
+
+html {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.25;
+    /* font-family: 'Merriweather', serif; */
+
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+
+}
+
+.bluesquare {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    outline: 5px solid red;
+}
+
+img {
+    max-width: 100%;
+}
+
+pre {
+    outline: 1px solid black;
+    padding: 2px;
+    overflow: auto;
+}
+body{
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+  justify-content: center;
+  height: 100%;
+
+
+
+}
+
+
+a {
+  color: hotpink;
+}
+
+
+
+
+span {
+  position: relative;
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 16px;
+  background: #000;
+  bottom: 0px;
+  transition: all 0.2s ease-out;
+}
+
+h1:hover {
+  background-position: 0 4px;
+}
+
+span:hover:before {
+  transform: translateY(10px)
+}
+
+h1 {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+
+li{
+  margin: 3px 0;
+}
+
+h2 {
+	padding-top: 12px;
+
+  font-weight: 200;
+
+}
