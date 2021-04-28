@@ -60,7 +60,7 @@ span:before {
   left: 0;
   right: 0;
   height: 16px;
-  background: #000;
+  background: linear-gradient(to bottom, #fff, hotpink, hotpink);
   bottom: 0px;
   transition: all 0.2s ease-out;
 }
@@ -77,7 +77,7 @@ h1 {
   cursor: pointer;
   position: relative;
   display: inline-block;
-  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background: linear-gradient(to bottom, #000, #000 60%, #000 60%, #000 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
