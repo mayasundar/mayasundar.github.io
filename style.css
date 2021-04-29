@@ -44,7 +44,7 @@ body{
 
 
 a {
-  color: #1d1b7c;
+  color: hotpink;
 }
 
 
@@ -60,7 +60,7 @@ span:before {
   left: 0;
   right: 0;
   height: 16px;
-  background: rgba(241, 142, 188, .2);
+  background: #000;
   bottom: 0px;
   transition: all 0.2s ease-out;
 }
@@ -77,10 +77,10 @@ h1 {
   cursor: pointer;
   position: relative;
   display: inline-block;
-/*  background: linear-gradient(to bottom, #000, #000 60%, #000 60%, #000 100%);
-*/  background-clip: text;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
   -webkit-background-clip: text;
-  color: #1d1b7c;
+  color: transparent;
   background-repeat: no-repeat;
   transition: background 0.2s ease-out;
   white-space: nowrap;
@@ -91,7 +91,7 @@ li{
 }
 
 h2 {
-	padding-top: 12px;
+  padding-top: 12px;
 
   font-weight: 200;
 
