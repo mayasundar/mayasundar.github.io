@@ -44,7 +44,7 @@ body{
 
 
 a {
-  color: hotpink;
+  color: #1d1b7c;
 }
 
 
@@ -60,7 +60,7 @@ span:before {
   left: 0;
   right: 0;
   height: 16px;
-  background: rgba(255, 105, 180, .2);
+  background: rgba(241, 142, 188, .2);
   bottom: 0px;
   transition: all 0.2s ease-out;
 }
@@ -80,7 +80,7 @@ h1 {
 /*  background: linear-gradient(to bottom, #000, #000 60%, #000 60%, #000 100%);
 */  background-clip: text;
   -webkit-background-clip: text;
-  color: hotpink;
+  color: #1d1b7c;
   background-repeat: no-repeat;
   transition: background 0.2s ease-out;
   white-space: nowrap;
