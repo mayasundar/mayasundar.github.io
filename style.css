@@ -49,10 +49,10 @@ a {
   text-decoration-thickness: 3px;
   text-decoration-color: #ccf7ff;
 
-      background: linear-gradient(to top, #ccf7ff 50%, transparent 50%) bottom;
-    background-size: 200%;
-    transition: .5s ease-out;
-    background-position: top;
+  background: linear-gradient(to top, #ccf7ff 50%, transparent 50%) bottom;
+  background-size: 200%;
+  transition: .5s ease-out;
+  background-position: top;
 
 
   // 7a83f0
@@ -65,20 +65,7 @@ a {
 }
 
 a:hover{
-/*  //background: linear-gradient(to right, red 50%, blue 50%);
-  transition:all 2s ease;
-*/    
-/*  background-color: red;
-*/  
-
-    background-position: bottom;
-    //color:white;
-
-
-/*    background-position: right bottom;
-    background-size: 200% 100%;
-    transition:all 3s ease;
-*/    
+  background-position: bottom;
 }
 
 
