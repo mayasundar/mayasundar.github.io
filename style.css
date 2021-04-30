@@ -44,10 +44,42 @@ body{
 
 
 a {
-  color: #7a83f0;
+  color: #00b4ef;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #ccf7ff;
+
+      background: linear-gradient(to top, #ccf7ff 50%, transparent 50%) bottom;
+    background-size: 200%;
+    transition: .5s ease-out;
+    background-position: top;
+
+
+  // 7a83f0
+  // 68c8bd
+  // fcb711
+  // 1d1b7c dont like
+  // 00b4ef
+  // 608c69
+  // 2585c8
 }
 
+a:hover{
+/*  //background: linear-gradient(to right, red 50%, blue 50%);
+  transition:all 2s ease;
+*/    
+/*  background-color: red;
+*/  
 
+    background-position: bottom;
+    //color:white;
+
+
+/*    background-position: right bottom;
+    background-size: 200% 100%;
+    transition:all 3s ease;
+*/    
+}
 
 
 span {
