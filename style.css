@@ -6,21 +6,13 @@ html {
     max-width: 450px;
     margin: auto;
     margin-top: 20px;
-    line-height: 1.25;
-    /* font-family: 'Merriweather', serif; */
+    line-height: 1.35;
 
 }
 
 h1 {
     font-family: 'Merriweather', serif;
 
-}
-
-.bluesquare {
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    outline: 5px solid red;
 }
 
 img {
@@ -38,18 +30,16 @@ body{
   justify-content: center;
   height: 100%;
 
-
-
 }
 
 
 a {
-  color: #00b4ef;
+  color: #000;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: #ccf7ff;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #A1D7F7;
 
-  background: linear-gradient(to top, #ccf7ff 50%, transparent 50%) bottom;
+  background: linear-gradient(to top, #A1D7F7 50%, transparent 50%) bottom;
   background-size: 200%;
   transition: .5s ease-out;
   background-position: top;
@@ -59,7 +49,7 @@ a {
   // 68c8bd
   // fcb711
   // 1d1b7c dont like
-  // 00b4ef
+  // 00b4ef <--
   // 608c69
   // 2585c8
 }
