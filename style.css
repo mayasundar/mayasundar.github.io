@@ -15,6 +15,19 @@ h1 {
 
 }
 
+/*h1.v2 {
+    font-family: 'Merriweather', serif;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #A1D7F7;
+  }
+*/
+h1.v2 span{
+  background-color: rgba(161, 215, 247, 0.3);
+
+}
+
 img {
     max-width: 100%;
 }
@@ -24,12 +37,12 @@ pre {
     padding: 2px;
     overflow: auto;
 }
+
 body{
   font-weight: 100;
   font-family: 'Merriweather', serif;
   justify-content: center;
   height: 100%;
-
 }
 
 
@@ -59,7 +72,7 @@ a:hover{
 }
 
 
-span {
+/*span {
   position: relative;
 }
 
@@ -72,9 +85,9 @@ span:before {
   background: #000;
   bottom: 0px;
   transition: all 0.2s ease-out;
-}
+*/}
 
-h1:hover {
+h1.title:hover {
   background-position: 0 4px;
 }
 
@@ -82,7 +95,7 @@ span:hover:before {
   transform: translateY(10px)
 }
 
-h1 {
+h1.title {
   cursor: pointer;
   position: relative;
   display: inline-block;
