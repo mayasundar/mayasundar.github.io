@@ -28,6 +28,12 @@ h1.v2 span{
 
 }
 
+h1.v2:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #A1D7F7;
+}
+
 img {
     max-width: 100%;
 }
