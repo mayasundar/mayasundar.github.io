@@ -13,8 +13,8 @@ html {
 }
 
 h1 {
-    //font-family: 'Merriweather', serif;
-    font-family: 'Tienne', serif;
+    font-family: 'Merriweather', serif;
+    //font-family: 'Tienne', serif;
 }
 
 h1.v2 span{
@@ -104,8 +104,8 @@ pre {
 
 body{
   font-weight: 100;
-  //font-family: 'Merriweather', serif;
-  font-family: 'Tienne', serif;  
+  font-family: 'Merriweather', serif;
+  //font-family: 'Tienne', serif;  
   justify-content: center;
   height: 100%;
 }
