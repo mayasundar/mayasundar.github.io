@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tienne&display=swap');
 
 
 html {
@@ -11,18 +13,10 @@ html {
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
-
+    //font-family: 'Merriweather', serif;
+    font-family: 'Tienne', serif;
 }
 
-/*h1.v2 {
-    font-family: 'Merriweather', serif;
-    color: #000;
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #A1D7F7;
-  }
-*/
 h1.v2 span{
   background-color: rgba(161, 215, 247, 0.3);
 
@@ -110,7 +104,8 @@ pre {
 
 body{
   font-weight: 100;
-  font-family: 'Merriweather', serif;
+  //font-family: 'Merriweather', serif;
+  font-family: 'Tienne', serif;  
   justify-content: center;
   height: 100%;
 }
