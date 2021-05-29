@@ -50,8 +50,10 @@ body{
 a {
   color: #000;
   text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-decoration-color: #A1D7F7;
+  text-decoration-thickness: 3px;
+ // text-decoration-color: #A1D7F7;
+  text-decoration-color: #89c787;
+
 
   background: linear-gradient(to top, #A1D7F7 50%, transparent 50%) bottom;
   background-size: 200%;
