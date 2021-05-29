@@ -53,7 +53,6 @@ a {
   text-decoration-thickness: 3px;
   text-decoration-color: #A1D7F7;
 
-
   background: linear-gradient(to top, #A1D7F7 50%, transparent 50%) bottom;
   background-size: 200%;
   transition: .5s ease-out;
