@@ -25,7 +25,7 @@ h1.v2 span{
 h1.v2:hover{
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #A1D7F7;
+    text-decoration-color: hotpink;
 }
 
 img {
@@ -51,9 +51,10 @@ a {
   color: #000;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: #A1D7F7;
+  text-decoration-color: powderblue;
 
-  background: linear-gradient(to top, #A1D7F7 50%, transparent 50%) bottom;
+  background: linear-gradient(to top, powderblue 50%, transparent 50%) bottom;
+  // #A1D7F7
   background-size: 200%;
   transition: .5s ease-out;
   background-position: top;
