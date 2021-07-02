@@ -17,7 +17,7 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 450px;
 }
 
 body{
@@ -45,7 +45,7 @@ a:hover{
 }
 
 
-/*span {
+span {
   position: relative;
 }
 
@@ -59,7 +59,7 @@ span:before {
   bottom: 0px;
   transition: all 0.2s ease-out;
   }
-*/
+
 
 
 h1.title:hover {
