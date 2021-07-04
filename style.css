@@ -14,7 +14,6 @@ html {
 
 h1 {
     font-family: 'Merriweather', serif;
-    //font-family: 'Tienne', serif;
 }
 
 img {
@@ -51,22 +50,6 @@ a {
 a:hover{
   background-position: bottom;
 }
-
-
-/*span {
-  position: relative;
-}
-span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 16px;
-  background: #000;
-  bottom: 0px;
-  transition: all 0.2s ease-out;
-  }
-*/
 
 
 h1.title:hover {
