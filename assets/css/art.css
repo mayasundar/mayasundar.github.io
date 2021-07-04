@@ -11,9 +11,8 @@ html {
     line-height: 1.35;
 }
 
-h1 {
-    font-family: 'Merriweather', serif;
-    //font-family: 'Tienne', serif;
+h1,h2,h3 {
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 img {
@@ -21,7 +20,7 @@ img {
 }
 
 body{
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Serif', serif;
   justify-content: center;
   height: 100%;
 }
