@@ -92,7 +92,6 @@ h2 {
 .blog {
     margin: 0;
     display: block;
-    font-family: 'heading','serif-bold','serif-regular',serif;
     font-size: 1.125rem;
     line-height: 1.2;
     overflow-wrap: break-word;
