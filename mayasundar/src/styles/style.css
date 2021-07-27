@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+:root {
+   --primary-color: #EF8F6C;
+   --secondary-color: #28313E;
+   --font-color: #050A0F;
+   --bg-color: #FFFFFF;
+}
+
+:root.dark {
+  --primary-color: #7695BE;
+  --secondary-color: #FAEFED;
+  --font-color: #F3F4F7;
+  --bg-color: #050A0F;
+}
+
+html {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.35;
+}
+
+h1,h2,h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  outline: 1px solid black;
+  padding: 2px;
+  overflow: auto;
+}
+
+body{
+font-family: 'PT Serif', serif;
+  justify-content: center;
+  height: 100%;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a.paint{
+  color: #71717a;
+  text-decoration: underline;
+  text-decoration-color: #71717a;
+
+}
+
+a.ul {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: powderblue;
+
+  background: linear-gradient(to top, powderblue 50%, transparent 50%) bottom;
+  /*  #A1D7F7 */  
+  background-size: 200%;
+  transition: .5s ease-out;
+  background-position: top;
+}
+
+a:hover{
+  background-position: bottom;
+}
+
+h1.title:hover {
+  background-position: 0 4px;
+}
+
+span:hover:before {
+  transform: translateY(10px)
+}
+
+h1.title {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+  margin: 3px 0;
+}
+
+h2 {
+  padding-top: 12px;
+}
+
+.divider {
+    white-space: nowrap;
+    box-shadow: rgb(230 230 230) 0px 1px 0px;
+}
+
+.blog {
+    margin: 0;
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #1a1717;
+}
+  
+.social-icon {
+  padding-right: 1rem;
+  border-bottom: 0px none #000;
+}
+
+ a.social{
+  -webkit-transition: border-color 200ms ease, color 200ms ease;
+  transition: border-color 200ms ease, color 200ms ease;
+  color: #000;
+/*   #b287bf*/
+  text-decoration: none;
+  padding: 0.75rem;
+  border-bottom: 0px none #000;
+}
+
+a.social:hover {
+  border-bottom-color: #71717a;
+  color: #71717a;
+}
+
+.box{
+  border-bottom: 1px solid rgb(230, 230, 230);
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+.date{
+  width: 8rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: normal;
+  color: #a1a1aa;
+  line-height: 1rem;
+}
+
+.title{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+}
+
+/*Simple css to style it like a toggle switch*/
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.theme-switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 35px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: var(--primary-color);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: var(--bg-color);
+  bottom: 4px;
+  content: "";
+  height: 12px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 12px;
+}
+
+input:checked + .slider {
+  background-color: var(--font-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+.slider.round {
+  border-radius: 12px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
