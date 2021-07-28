@@ -16,7 +16,7 @@ const IndexPage = () => {
           Currently, I'm a research assistant in the Corter Lab at Teacher's College, working on knowledge diversity and cooperative learning. 
           <br />
           <br />
-          In my free time, I enjoy crossword puzzles, <a className="paint" href="/blog/on-digital-humanities">painting</a>, and reading short stories.
+          In my free time, I enjoy crossword puzzles, <a className="paint" href="/blog/notfound">painting</a>, and reading short stories.
       </p>
 
       <div className="divider">
