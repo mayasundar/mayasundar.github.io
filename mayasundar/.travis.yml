@@ -5,7 +5,7 @@ cache:
 notifications:
   email:
     recipients:
-      - chen@huchen.me
+      - mayasundar2@gmail.com
 node_js:
   - '9'
 git:
