@@ -7,16 +7,18 @@ const IndexPage = () => {
     <div>
 
       <title>Maya Sundar</title>
+
       <div className="divider">
       <h1>Maya Sundar</h1>
+
       </div>
 
       <p>
-          I'm a second year computer science student at Columbia interested in full-stack development and venture capital. 
+          I'm a first year computer science student at Columbia interested in full-stack development and venture capital. 
           Currently, I'm a research assistant in the Corter Lab at Teacher's College, working on knowledge diversity and cooperative learning. 
           <br />
           <br />
-          In my free time, I enjoy crossword puzzles, <a className="paint" href="/blog/notfound">painting</a>, and reading short stories.
+          In my free time, I enjoy crossword puzzles, <a className="paint" href="/pages/art.js">painting</a>, and reading short stories.
       </p>
 
       <div className="divider">

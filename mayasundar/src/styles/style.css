@@ -17,6 +17,7 @@ html {
     margin-top: 20px;
     line-height: 1.5;
     color: #222222;
+    background-color: #fffff;
 }
 
 h1,h2,h3 {
@@ -59,7 +60,7 @@ h2 {
 
 .divider {
     white-space: nowrap;
-    box-shadow: rgb(230 230 230) 0px 1px 0px;
+    box-shadow: #D7EBFF 0px 1px 0px;
 }
 
 .blog {
@@ -83,11 +84,11 @@ h2 {
  a.social{
   -webkit-transition: border-color 200ms ease, color 200ms ease;
   transition: border-color 200ms ease, color 200ms ease;
-  color: #222222;
+  color: #89ACDD;
 /*   #b287bf*/
   text-decoration: none;
   padding: 0.75rem;
-  border-bottom: 0px none #222222;
+  border-bottom: 0px none #959F2C;
 }
 
 a.social:hover {
@@ -108,7 +109,7 @@ a.social:hover {
   width: 8rem;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: normal;
-  color: #a1a1aa;
+  color: #89ACDD;
   line-height: 1rem;
 }
 
