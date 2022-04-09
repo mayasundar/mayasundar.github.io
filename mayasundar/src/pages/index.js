@@ -1,5 +1,6 @@
 import * as React from "react"
 import "../styles/style.css"
+import { Link } from "gatsby"
 
 const IndexPage = () => {
 
@@ -14,15 +15,20 @@ const IndexPage = () => {
       </div>
 
       <p>
-          I'm a first year computer science student at Columbia interested in full-stack development and venture capital. 
-          Currently, I'm a research assistant in the Corter Lab at Teacher's College, working on knowledge diversity and cooperative learning. 
+          I'm a second-year student at Columbia studying computer science and English. 
+          I'm interested in full-stack development, accessibility, and inclusive engineering + design. 
+          I'm especially concerned with how tech impacts language & culture, and vice versa.  
+          Previously, I was a working on knowledge diversity and cooperative learning 
+          as a research assistant at Teacher's College, 
+          and interning at an early-stage real estate startup as a software engineer & product designer. 
           <br />
           <br />
-          In my free time, I enjoy crossword puzzles, <a className="paint" href="/pages/art.js">painting</a>, and reading short stories.
+          In my free time, I read short stories, play the NYT Spelling Bee, and <Link to ="/pages/art.js">paint</Link>.
+          Currently, I'm reading Digital Keywords by Benjamin Peters.
       </p>
 
       <div className="divider">
-      <h2>Contact Me</h2>
+      <h2>Get in Touch @</h2>
       </div>
 
         <div className="social-icon">
@@ -58,7 +64,7 @@ const IndexPage = () => {
             <div className="title">On Digital Humanities</div>
         </a>
 
-        <a className="box" href="/blog/on-digital-humanities">
+        <a className="box" href="/blog/public-roads-private-profit">
             <div className="date">April 2021</div>
             <div className="title">Public Roads, Private Profit</div>
         </a>
@@ -72,5 +78,6 @@ const IndexPage = () => {
 
   )
 }
+
 
 export default IndexPage

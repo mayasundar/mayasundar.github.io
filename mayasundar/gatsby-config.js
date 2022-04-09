@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "mayasundar",
+    plugins: ["gatsby-gallery-simple"],
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -16,4 +17,5 @@ module.exports = {
     },
     `gatsby-transformer-remark`
   ],
+
 };
