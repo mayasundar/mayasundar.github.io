@@ -11,11 +11,10 @@ const IndexPage = () => {
 
       <div className="divider">
       <h1>Maya Sundar</h1>
-
       </div>
 
       <p>
-          I'm a second-year student at Columbia studying computer science and English. 
+          I'm a junior at Columbia studying computer science and English. 
           I'm interested in full-stack development, accessibility, and inclusive engineering + design. 
           I'm especially concerned with how tech impacts language & culture, and vice versa.  
           Previously, I was a working on knowledge diversity and cooperative learning 
@@ -53,29 +52,7 @@ const IndexPage = () => {
 
         </div>
 
-
-      <div className="divider">
-      <h2>Writing
-      </h2>
-      </div>
-
-        <a className="box" href="/blog/on-digital-humanities">
-            <div className="date">June 2021</div>
-            <div className="title">On Digital Humanities</div>
-        </a>
-
-        <a className="box" href="/blog/public-roads-private-profit">
-            <div className="date">April 2021</div>
-            <div className="title">Public Roads, Private Profit</div>
-        </a>
-
-        <a className="box" href="/blog/on-digital-humanities">
-            <div className="date">March 2021</div>
-            <div className="title">Decentralized Dystopia</div>
-        </a>
-
-  </div>
-
+    </div>
   )
 }
 
