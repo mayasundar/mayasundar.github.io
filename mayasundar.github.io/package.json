@@ -31,8 +31,7 @@
     "eject": "react-scripts eject",
     "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "postbuild": "copy .\\src\\app.js .\\build\\app.js"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
