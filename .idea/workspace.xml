@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8071b62b-3083-45d8-8a54-a79bb746018c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,18 @@
       <workItem from="1673673391056" duration="2487000" />
       <workItem from="1673713088240" duration="5925000" />
       <workItem from="1673722393754" duration="1697000" />
+      <workItem from="1674094762496" duration="613000" />
+      <workItem from="1674345171543" duration="1223000" />
+      <workItem from="1674585339146" duration="599000" />
+      <workItem from="1674682228244" duration="590000" />
+      <workItem from="1674760972877" duration="1583000" />
+      <workItem from="1674834292016" duration="1983000" />
+      <workItem from="1675891778372" duration="599000" />
+      <workItem from="1676489476928" duration="598000" />
+      <workItem from="1676660862599" duration="1198000" />
+      <workItem from="1676689969420" duration="394000" />
+      <workItem from="1676690381006" duration="613000" />
+      <workItem from="1677126715249" duration="70000" />
     </task>
     <servers />
   </component>
