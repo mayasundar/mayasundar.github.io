@@ -8,7 +8,6 @@ import "../index.css";
 interface LinkTabProps {
     label?: string;
     href?: string;
-    value: string;
 }
 
 function LinkTab(props: LinkTabProps) {
@@ -73,15 +72,23 @@ function Tab1Content() {
         <div className="tab-content-container">
         <div className="tab-content">
             <h1> About Me ☺</h1>
-            <p>I'm currently a junior at Columbia studying computer science and English.</p>
-            I'm interested in <ul>
-                <li>front-end development</li>
-                <li>ui/ux</li>
+            <p>I recently graduated from Columbia University, where I studied computer science and English.</p>
+            I care about <ul>
+                <li>design-driven web development</li>
+                <li>user interfaces</li>
                 <li>figuring out how my favorite software products work</li>
                 <li>digital humanities</li>
                 <li>contemporary art & design</li>
-                <li>techno-optimism</li>
             </ul>
+            I like <ul>
+                <li>spending lots of time in Figma</li>
+                <li>drinking <a href="https://steepster.com/teas/ito-en/10605-jasmine-green-tea" target="_blank" rel="noopener noreferrer">jasmine green tea</a></li>
+                <li>visiting art museums and galleries</li>
+                <li>watching gymnastics</li>
+                <li><a href="https://map.mta.info" target="_blank" rel="noopener noreferrer">beautiful maps</a></li>
+                <li>hand embroidery, oil painting, and graphite drawing</li>
+            </ul>
+
         </div>
         </div>
     );
@@ -91,14 +98,15 @@ function Tab2Content() {
     return (
         <div className="tab-content-container">
         <div className="tab-content">
-                {/* Layer 1 content goes here */}
                 <h1> Things I Like ☺</h1>
                 <ul>
+                    <li>spending lots of time in Figma</li>
                     <li>making spreadsheets</li>
-                    <li>drinking lots of <a href="https://steepster.com/teas/ito-en/10605-jasmine-green-tea" target="_blank" rel="noopener noreferrer">tea</a></li>
-                    <li>watching contemporary art auctions</li>
-                    <li><a href="https://map.mta.info" target="_blank" rel="noopener noreferrer">well designed maps</a></li>
-                    <li>hand embroidery, acrylic painting, and graphite drawing</li>
+                    <li>drinking <a href="https://steepster.com/teas/ito-en/10605-jasmine-green-tea" target="_blank" rel="noopener noreferrer">jasmine green tea</a></li>
+                    <li>visiting art museums and galleries</li>
+                    <li>watching gymnastics</li>
+                    <li><a href="https://map.mta.info" target="_blank" rel="noopener noreferrer">beautiful maps</a></li>
+                    <li>hand embroidery, oil painting, and graphite drawing</li>
                 </ul>
         </div>
         </div>
@@ -109,12 +117,13 @@ function Tab3Content() {
     return (
         <div className="tab-content-container">
             <div className="tab-content">
-                {/* Layer 1 content goes here */}
                 <h1> Things I'm Involved In ☺ </h1>
                 <ul>
-                    <li>I'm grateful to be a student organizer for Columbia in Tech, a community of Columbia alumni working in technology!</li>
-                    <li>I've interned at two MBA student-run ventures at Columbia Build Lab, an incubator housed at Columbia Business School. I'm currently the undergraduate co-president.</li>
-                    <li>I've helped with research at Teachers College and CUIMC and have learned a lot about knowledge diversity and structural variant gene annotation, respectively.</li>
+                    <li>I'm grateful to be an organizer for <a href="https://columbiaintech.com" target="_blank" rel="noopener noreferrer">
+                        Columbia in Tech</a>, a community of Columbia alumni working in technology!</li>
+                    <li>I've interned at two MBA student-run ventures at <a href="http://columbiabuildlab.com/" target="_blank" rel="noopener noreferrer">
+                        Columbia Build Lab</a>, an incubator housed at Columbia Business School. I served as undergraduate co-president of the program for nearly two years.</li>
+                    <li>I've helped with research at Teachers College and Columbia University Irving Medical Center and have learned a lot about knowledge diversity and structural variant gene annotation, respectively.</li>
                 </ul>
             </div>
         </div>
@@ -133,9 +142,9 @@ function LayersPanel(props) {
         <MuiThemeProvider theme={theme}>
             <div>
                 <Tabs orientation="vertical" value={activeTab} onChange={handleChange} className="tabs" style={{width: '150'}}>
-                    <LinkTab disableRipple="true" label="Layer 1" value="tab1" />
-                    <LinkTab disableRipple="true" label="Layer 2" value="tab2" />
-                    <LinkTab disableRipple="true" label="Layer 3" value="tab3" />
+                    <LinkTab disableRipple="true" label="Layer 1" value="tab1"  />
+                    <LinkTab disableRipple="true" label="Layer 2" value="tab2"  />
+                    <LinkTab disableRipple="true" label="Layer 3" value="tab3"  />
                 </Tabs>
                 {activeTab === "tab1" && <Tab1Content />}
                 {activeTab === "tab2" && <Tab2Content />}

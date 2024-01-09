@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8071b62b-3083-45d8-8a54-a79bb746018c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/styles/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image3.png" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/LayersPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/LayersPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +28,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KIsNHAm5MsRqeQFCNbtF9Cjfmy" />
   <component name="ProjectLevelVcsManager">
@@ -28,22 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mayasundar/Documents/GitHub/mayasundar.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mayasundar/Documents/GitHub/mayasundar.github.io",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mayasundar.github.io/public" />
@@ -71,7 +98,16 @@
       <workItem from="1676660862599" duration="1198000" />
       <workItem from="1676689969420" duration="394000" />
       <workItem from="1676690381006" duration="613000" />
-      <workItem from="1677126715249" duration="70000" />
+      <workItem from="1677126715249" duration="696000" />
+      <workItem from="1677165385815" duration="720000" />
+      <workItem from="1677532793396" duration="599000" />
+      <workItem from="1677801621634" duration="596000" />
+      <workItem from="1677885788995" duration="3460000" />
+      <workItem from="1678376244647" duration="73000" />
+      <workItem from="1679060666982" duration="4000" />
+      <workItem from="1679765077705" duration="543000" />
+      <workItem from="1686690754313" duration="1018000" />
+      <workItem from="1704746802991" duration="11181000" />
     </task>
     <servers />
   </component>
