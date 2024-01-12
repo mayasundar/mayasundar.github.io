@@ -8,16 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8071b62b-3083-45d8-8a54-a79bb746018c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

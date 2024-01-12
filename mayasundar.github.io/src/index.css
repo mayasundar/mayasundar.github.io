@@ -137,6 +137,7 @@ li:not(:last-child) {
     width:70%;
     float:left;
     margin:unset;
+    overflow-y:auto;
     }
   .canvas-container, .canvas-panel {
     width: 70%;
@@ -229,8 +230,19 @@ p.panel-text{
 
 }
 
+.tab{
+  overflow-y:auto;
+  overflow-x:clip;
+  margin-left:30vw;
+  margin-bottom: -50vh;
+  margin-top:-37.272vh;
+  width: 60vw;
+  height:79vh;
+
+}
+
 .tab-content {
-  min-width: 32vw;
+  min-width: 40vw;
   height:auto;
   max-height:72vh;
   background: rgba(255, 255, 255, 0.46);
@@ -238,24 +250,15 @@ p.panel-text{
   margin-left:10vw;
   margin-right:50px;
   padding: 24px;
-  overflow: scroll;
   border-radius: 0.625rem;
-
+  overflow-y:auto;
 }
 
-.tab{
-  margin-left:30vw;
-  margin-bottom: -50vh;
-  margin-top:-37.272vh;
-  width: 60vw;
-  height:79vh;
-}
 
 .tab-text{
   padding-top: -10vh;
   align-items: center;
   max-height: 100%;
-  overflow: hidden;
   display: inline-block;
 
 }
@@ -264,9 +267,8 @@ p.panel-text{
 
   background: rgba(255, 255, 255, 0.46);
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
-  overflow: scroll;
   border-radius: 0.625rem;
-  min-width: 32vw;
+  min-width: 40vw;
   height:auto;
   justify-self: start;
   font-size:22px;
@@ -277,12 +279,36 @@ p.panel-text{
 
 .list-tab-content {
   height:auto;
-  width:100%;
   max-height:72vh;
   margin-left:10vw;
   margin-right:50px;
-  overflow: scroll;
+  overflow-y: auto;
   border-radius: 0.625rem;
 
 }
 
+.box{
+
+  background: rgba(255, 255, 255, 0.46);
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  overflow-y: clip;
+  word-wrap: normal;
+  border-radius: 0.625rem;
+  min-width: 40vw;
+  min-height:32vh;
+  justify-self: start;
+  font-size:14px;
+  word-wrap: anywhere;
+  padding:10px;
+  margin:10px;
+}
+
+::-webkit-scrollbar{
+  background-color: rgb(169, 192, 203, 0.14);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(169, 192, 203, 0.9);
+  border-radius: 20px;
+  border: 3px white;
+}
