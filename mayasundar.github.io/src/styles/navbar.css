@@ -1,12 +1,10 @@
 .navbar-container{
     float: left;
-    width:70vw;
+    width:100vw;
     margin-top: -15vh;
-
 }
 
 h1.nav-name{
-    color:#707070;
     margin-left:5vw;
 }
 
@@ -15,9 +13,8 @@ h1.nav-name{
 }
 
 a.navbar-social{
-    color: #FF86A3;
-    padding: 1vw;
     padding-left:5vw;
+    margin-right: -30px;
 
 
 }
