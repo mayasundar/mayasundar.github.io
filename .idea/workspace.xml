@@ -8,8 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8071b62b-3083-45d8-8a54-a79bb746018c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/Annetta.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +102,9 @@
       <workItem from="1686690754313" duration="1018000" />
       <workItem from="1704746802991" duration="11181000" />
       <workItem from="1704993597959" duration="21306000" />
+      <workItem from="1705075618278" duration="7313000" />
+      <workItem from="1705162449147" duration="610000" />
+      <workItem from="1705774228065" duration="11130000" />
     </task>
     <servers />
   </component>

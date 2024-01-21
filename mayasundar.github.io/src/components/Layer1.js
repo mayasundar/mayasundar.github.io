@@ -2,6 +2,7 @@ import React from "react";
 
 function Layer1(){
     return (
+
         <div className="tab-content-container">
             <div className="tab-content">
                 <h1> About Me ☺</h1>
@@ -15,7 +16,7 @@ function Layer1(){
             </ul>
                 I like <ul>
                 <li>spending lots of time in Figma</li>
-                <li>drinking <a href="https://steepster.com/teas/ito-en/10605-jasmine-green-tea" target="_blank" rel="noopener noreferrer">jasmine green tea</a></li>
+                <li>drinking jasmine green tea</li>
                 <li>visiting art museums and galleries</li>
                 <li>watching gymnastics</li>
                 <li><a href="https://map.mta.info" target="_blank" rel="noopener noreferrer">beautiful maps</a></li>

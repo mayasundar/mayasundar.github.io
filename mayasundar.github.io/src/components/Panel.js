@@ -18,6 +18,7 @@ let componentRender;
 
 function Panel(props) {
     const [visibleLayers, setVisibleLayers] = useState([]);
+    const [selectedLayer, setSelectedLayer] = useState(1);
 
     useEffect(() => {
         setVisibleLayers([images[0]]);
@@ -34,18 +35,7 @@ function Panel(props) {
             newVisibleLayers = images;
         }
         setVisibleLayers(newVisibleLayers);
-
-        if (layer === 1) {
-            componentRender = <Layer1 />;
-        }
-        else if (layer === 2) {
-            componentRender = <Layer2 />;
-        }
-        else if (layer === 3) {
-            componentRender = <Layer3 />;
-        }
-
-
+        setSelectedLayer(layer);
     };
 
     return (
@@ -59,8 +49,13 @@ function Panel(props) {
                 <Button label="Layer 3" onClick={() => handleLayerClick(3)}></Button>
                 </div>
             </div>
-            <p className="panel-text">Canvas</p>
-            {componentRender}
+            <p className="canvas-text">Canvas</p>
+            <div className="canvas-text-container">
+
+            {selectedLayer === 1 && <Layer1 />}
+            {selectedLayer === 2 && <Layer2 />}
+            {selectedLayer === 3 && <Layer3 />}
+            </div>
 
             <div className="canvas-big-container">
             <div className="canvas-container">
