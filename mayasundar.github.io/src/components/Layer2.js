@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button"
 import mayapaintstudio from "../assets/mayapaintstudio.jpeg"
 import studentstay from "../assets/joinstudentstay.jpeg"
 import Annetta from "../assets/Annetta.jpeg"

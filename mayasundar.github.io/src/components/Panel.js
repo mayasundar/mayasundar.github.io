@@ -4,7 +4,6 @@ import Button from "./Button";
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
-import Navbar from "./Navbar"
 import Layer1 from "./Layer1"
 import Layer2 from "./Layer2"
 import Layer3 from "./Layer3"
