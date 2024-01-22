@@ -269,9 +269,9 @@ p.canvas-text{
   }
   .panel-container {
     width: 100%;
-    height:30vh;
+    max-height:34vh;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
     margin-left: 5px;
     margin-right: 5px;
     position: static;
@@ -283,7 +283,6 @@ p.canvas-text{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
   }
 
   .canvas-big-container {
@@ -320,8 +319,8 @@ p.canvas-text{
   .tab-content-container {
     position: static;
     margin-top: 0;
-    margin-left: 0;
-    margin-right:10px;
+    margin-left: -5px;
+    margin-right:0px;
     margin-bottom:10px;
     height:100%;
     width:auto;
@@ -363,10 +362,11 @@ p.canvas-text{
   }
 
   .tbox img{
-    max-height: 300px;
+    max-width: 70vw;
+    height: auto;
     width: auto;
     display: block;
-    margin: 0 auto;
+    margin: 30px;
   }
 
   .tbox {
@@ -375,7 +375,7 @@ p.canvas-text{
     overflow-y: clip;
     word-wrap: normal;
     border-radius: 0.625rem;
-    width:100vw;
+    max-width:77vw;
   }
 
   .ttab{
@@ -435,7 +435,7 @@ p.canvas-text{
 }
 
 .tbox img{
-  min-height: 300px;
+  max-height: 40vh;
   width: auto;
   display: block;
   margin: 0 auto;

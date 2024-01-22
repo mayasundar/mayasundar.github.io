@@ -5,7 +5,7 @@ function Layer1(){
 
         <div className="tab-content-container">
             <div className="tab-content">
-                <h1> About Me &#x263A;</h1>
+                <h1> About Me ☺&#xFE0E;</h1>
                 <p>I recently graduated from Columbia University, where I studied computer science and English.</p>
                 I care about <ul>
                 <li>design-driven web development</li>
