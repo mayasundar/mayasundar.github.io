@@ -83,6 +83,7 @@ li:not(:last-child) {
   background: #EDEEF0;
   position: absolute;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  margin-left:3vw;
 
 }
 .layers{
@@ -98,6 +99,32 @@ li:not(:last-child) {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.button{
+  margin: 10px 0;
+  width: 300px;
+  height: 3.125rem;
+  border-radius: 0.625rem;
+  background-color: rgba(255, 255, 255, 0.46);
+  border: none;
+  margin-bottom:-2px;
+  font-family: 'Amiko', -apple-system, BlinkMacSystemFont, sans-serif;
+  color:#6A788E;
+
+}
+
+.button:hover{
+  background: #EEE7E8;
+
+}
+.button:focus{
+  background:  #E6D8D8;
+
+}
+
+.button.active {
+  background: #E9E3E4 ;
 
 }
 
@@ -144,8 +171,7 @@ p.canvas-text{
   position: absolute;
   float: right;
   margin-top: -35.5vh;
-  margin-left:30vw;
-
+  margin-left:25vw;
 }
 
 .tab{
@@ -159,15 +185,12 @@ p.canvas-text{
 
 .tab-content {
   min-width: 45vw;
-  height:auto;
-  max-height:71vh;
   background: rgba(255, 255, 255, 0.46);
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
   margin-left:10vw;
   margin-right:50px;
-  padding: 24px;
+  padding: 15px 25px;
   border-radius: 0.625rem;
-  overflow-y:auto;
 }
 
 
@@ -240,7 +263,7 @@ p.canvas-text{
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 867px) {
   *{
     text-wrap: normal;
   }
@@ -249,8 +272,11 @@ p.canvas-text{
     height:30vh;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: static;
   }
+
 
   .button-div{
     display:flex;
@@ -264,7 +290,6 @@ p.canvas-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:50vh;
   }
 
   .canvas-container {
@@ -338,9 +363,10 @@ p.canvas-text{
   }
 
   .tbox img{
-    max-height: 150px;
+    max-height: 300px;
     width: auto;
-
+    display: block;
+    margin: 0 auto;
   }
 
   .tbox {
@@ -366,7 +392,6 @@ p.canvas-text{
 
 .tlist-tab-content {
   max-height:69.25vh;
-  min-width:100vw;
   margin-left:10vw;
   margin-right:50px;
   overflow-y: auto;
@@ -379,7 +404,7 @@ p.canvas-text{
   overflow-y: clip;
   word-wrap: normal;
   border-radius: 0.625rem;
-  max-width: 40vw;
+  max-width: 80vw;
   min-height:30vh;
   justify-self: start;
   font-size:14px;
@@ -392,11 +417,11 @@ p.canvas-text{
 }
 
 .ttab{
-  margin-left:30vw;
-  margin-bottom: -50vh;
+  margin-left:24vw;
   margin-top:-37.272vh;
-  width: 58vw;
-  height:79vh;
+  width: 64vw;
+  max-height:80vh;
+
 }
 
 .ttab-text{
@@ -406,5 +431,23 @@ p.canvas-text{
   height:auto;
   margin-left:10vw;
   margin-right:50px;
+
+}
+
+.tbox img{
+  min-height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tool{
+  color: rgb(101,116,141, 0.5);
+  border: solid rgb(101,116,141, 0.5) 2px;
+  border-radius: 25px;
+  display:inline-block;
+  margin:3px;
+  padding: 2px 5px;
+  font-size:12px;
 
 }

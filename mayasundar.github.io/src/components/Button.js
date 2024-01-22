@@ -13,11 +13,12 @@ const buttonStyle = {
     color:'#6A788E',
 };
 
-const Button = ({ label, onClick }) => (
+const Button = ({ label, onClick, isActive }) => (
     <button
-        className="btn btn-default"
-        style={buttonStyle}
-        onClick={onClick}    >
+        className="button"
+        onClick={onClick}
+        className={`button ${isActive ? "active" : ""}`}
+    >
         {label}
     </button>
 );

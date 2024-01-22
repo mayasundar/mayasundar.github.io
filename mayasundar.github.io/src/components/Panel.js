@@ -43,9 +43,15 @@ function Panel(props) {
 
             <div className="layers">
                 <div className="button-div">
-                <Button label="Layer 1" onClick={() => handleLayerClick(1)}></Button>
-                <Button label="Layer 2" onClick={() => handleLayerClick(2)}></Button>
-                <Button label="Layer 3" onClick={() => handleLayerClick(3)}></Button>
+                <Button label="Layer 1" onClick={() => handleLayerClick(1)}
+                        isActive={selectedLayer === 1}
+                ></Button>
+                <Button label="Layer 2" onClick={() => handleLayerClick(2)}
+                        isActive={selectedLayer === 2}
+                ></Button>
+                <Button label="Layer 3" onClick={() => handleLayerClick(3)}
+                        isActive={selectedLayer === 3}
+                ></Button>
                 </div>
             </div>
             <p className="canvas-text">Canvas</p>
