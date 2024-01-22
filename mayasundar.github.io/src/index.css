@@ -319,10 +319,10 @@ p.canvas-text{
 
   .tab-content-container {
     position: static;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: -5px;
     margin-right:-5px;
-    margin-bottom:5px;
+    margin-bottom:20px;
     height:100%;
     width:auto;
     text-wrap: normal;
@@ -384,8 +384,7 @@ p.canvas-text{
   }
 
   .ttab{
-      all: unset;
-
+    all: unset;
   }
 
   .ttab-text{
