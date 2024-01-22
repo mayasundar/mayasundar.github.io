@@ -4,7 +4,7 @@ function Layer2(){
     return (
         <div className="tab-content-container">
             <div className="tab-content">
-                <h1> Things I'm Involved In ☺ </h1>
+                <h1> Things I'm Involved In &#x263A; </h1>
                 <ul>
                     <li>I'm grateful to be an organizer for
                         <a href="https://columbiaintech.com" target="_blank" rel="noopener noreferrer"> Columbia in Tech</a>, a community of Columbia alumni working in technology.</li>

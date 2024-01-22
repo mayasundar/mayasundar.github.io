@@ -12,7 +12,7 @@ function Layer2() {
 
         <div className="ttab">
             <div className="ttab-text">
-                <h1> Things I've Worked On ☺</h1>
+                <h1> Things I've Worked On &#x263A;</h1>
             </div>
 
             <div className="tlist-tab-content">
