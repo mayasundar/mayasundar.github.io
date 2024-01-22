@@ -269,7 +269,7 @@ p.canvas-text{
   }
   .panel-container {
     width: 100%;
-    max-height:34vh;
+    max-height:30vh;
     padding-top: 5px;
     padding-bottom: 0;
     margin-left: 5px;
@@ -283,6 +283,7 @@ p.canvas-text{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    max-height:20vh;
   }
 
   .canvas-big-container {
@@ -318,10 +319,10 @@ p.canvas-text{
 
   .tab-content-container {
     position: static;
-    margin-top: 0;
+    margin-top: 5px;
     margin-left: -5px;
-    margin-right:0px;
-    margin-bottom:10px;
+    margin-right:-5px;
+    margin-bottom:5px;
     height:100%;
     width:auto;
     text-wrap: normal;
@@ -329,10 +330,14 @@ p.canvas-text{
   }
 
   .tab-content {
-    min-width: 90%;
+    min-width: 80vw;
     margin-left: 10px;
     margin-right: 10px;
     padding: 16px;
+    background: rgba(255, 255, 255, 0.46);
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    border-radius: 0.625rem;
+
   }
 
   .list-tab-content {
