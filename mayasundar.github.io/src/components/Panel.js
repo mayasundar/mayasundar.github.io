@@ -4,6 +4,7 @@ import Button from "./Button";
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
+import TabContentContainer from "./TabContentContainer";
 import Layer1 from "./Layer1"
 import Layer2 from "./Layer2"
 import Layer3 from "./Layer3"
@@ -15,27 +16,12 @@ const images = [
 ];
 let componentRender;
 
-function Panel(props) {
+function Panel({ activeTab, setActiveTab, selectedLayer, handleLayerClick }) {
     const [visibleLayers, setVisibleLayers] = useState([]);
-    const [selectedLayer, setSelectedLayer] = useState(1);
 
     useEffect(() => {
         setVisibleLayers([images[0]]);
     }, []);
-
-
-    const handleLayerClick = (layer) => {
-        let newVisibleLayers = [];
-        if (layer === 1) {
-            newVisibleLayers = [images[0]];
-        } else if (layer === 2) {
-            newVisibleLayers = [images[0], images[1]];
-        } else if (layer === 3) {
-            newVisibleLayers = images;
-        }
-        setVisibleLayers(newVisibleLayers);
-        setSelectedLayer(layer);
-    };
 
     return (
         <div className="panel-container">
@@ -55,12 +41,9 @@ function Panel(props) {
                 </div>
             </div>
             <p className="canvas-text">Canvas</p>
-            <div className="canvas-text-container">
-
-            {selectedLayer === 1 && <Layer1 />}
-            {selectedLayer === 2 && <Layer2 />}
-            {selectedLayer === 3 && <Layer3 />}
-            </div>
+            {/*<div className="canvas-text-container">*/}
+            {/*    <TabContentContainer selectedLayer={selectedLayer} />*/}
+            {/*</div>*/}
 
             <div className="canvas-big-container">
             <div className="canvas-container">

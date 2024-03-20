@@ -10,12 +10,10 @@ import mayasundar from "../assets/mayasundar.jpeg"
 function Layer2() {
     return (
 
-        <div className="ttab">
-            <div className="ttab-text">
-                <h1> Things I've Worked On ☺&#xFE0E;</h1>
-            </div>
+        <div>
 
-            <div className="tlist-tab-content">
+            <div>
+                <h1> Things I've Worked On ☺&#xFE0E;</h1>
 
                 <div className="tbox">
                     <h4>Observability App · <div className="tool">React</div><div className="tool">Flask</div><div className="tool">Firebase</div></h4>

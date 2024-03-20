@@ -3,8 +3,8 @@ import React from "react";
 function Layer1(){
     return (
 
-        <div className="tab-content-container">
-            <div className="tab-content">
+        <div>
+            <div>
                 <h1> About Me ☺&#xFE0E;</h1>
                 <p>I recently graduated from Columbia University, where I studied computer science and English.</p>
                 I care about <ul>

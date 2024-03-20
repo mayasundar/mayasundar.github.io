@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f724a7e1-46d0-4557-9e4d-1bd626d282e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,9 @@
       <workItem from="1673673391056" duration="2487000" />
       <workItem from="1673713088240" duration="5925000" />
       <workItem from="1673722393754" duration="1697000" />
-      <workItem from="1705942126078" duration="20230000" />
+      <workItem from="1705942126078" duration="21817000" />
+      <workItem from="1708631810936" duration="762000" />
+      <workItem from="1710958253146" duration="332000" />
     </task>
     <servers />
   </component>

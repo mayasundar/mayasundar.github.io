@@ -2,8 +2,8 @@ import React from "react";
 
 function Layer2(){
     return (
-        <div className="tab-content-container">
-            <div className="tab-content">
+        <div>
+            <div>
                 <h1> Things I'm Involved In ☺&#xFE0E; </h1>
                 <ul>
                     <li>I'm grateful to be an organizer for
