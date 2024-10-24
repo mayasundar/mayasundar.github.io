@@ -119,7 +119,7 @@ li:not(:last-child) {
 
 }
 .button:focus{
-  background:  #E6D8D8;
+  background:  #E9E3E4;
 
 }
 
@@ -167,46 +167,6 @@ p.canvas-text{
   align-items: center;
 }
 
-/*.tab-content-container{*/
-/*  display:inline-block;*/
-/*  margin-top: 5%;*/
-/*  margin-left:25vw;*/
-/*  width: 20rem;*/
-/*  height: 35.8125rem;*/
-
-/*}*/
-
-.tab{
-  margin-left:30vw;
-  margin-bottom: -50vh;
-  margin-top:-37.272vh;
-  width: 60vw;
-  height:79vh;
-
-}
-
-/*.tab-content {*/
-/*  min-width: 45vw;*/
-/*  background: rgba(255, 255, 255, 0.46);*/
-/*  box-shadow: 0 0 2px rgba(0,0,0,0.2);*/
-/*  margin-left:10vw;*/
-/*  margin-right:50px;*/
-/*  padding: 15px 25px;*/
-/*  border-radius: 0.625rem;*/
-/*}*/
-
-
-/*.tab-text{*/
-/*  padding-top: -10vh;*/
-/*  align-items: center;*/
-/*  max-height: 100%;*/
-/*  display: inline-block;*/
-/*  height:auto;*/
-/*  margin-left:10vw;*/
-/*  margin-right:50px;*/
-
-/*}*/
-
 .tab-content-container {
   display: inline-block;
   margin-left: 20vw;
@@ -220,7 +180,7 @@ p.canvas-text{
   margin-left: -5vw;
   padding: 15px 25px;
   border-radius: 0.625rem;
-  max-height: 35.8125rem;
+  max-height: 34rem;
   overflow-y: auto;
 }
 
@@ -460,7 +420,6 @@ p.canvas-text{
 
 }
 
-
 .tbox img{
   max-height: 40vh;
   width: auto;
@@ -470,7 +429,7 @@ p.canvas-text{
 
 .tool{
   color: rgb(101,116,141, 0.5);
-  border: solid rgb(101,116,141, 0.5) 2px;
+  border: solid rgb(101,116,141, 0.5) 1.5px;
   border-radius: 25px;
   display:inline-block;
   margin:3px;

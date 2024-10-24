@@ -19,7 +19,6 @@ function Layer1(){
                 <li>visiting art museums and galleries</li>
                 <li>reading books</li>
                 <li>hand embroidery, oil painting, and graphite drawing</li>
-                <li>watching gymnastics</li>
             </ul>
             </div>
         </div>

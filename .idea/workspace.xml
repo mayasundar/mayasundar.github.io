@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f724a7e1-46d0-4557-9e4d-1bd626d282e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/CIT.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Canvas.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/LayersPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/TabContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/TabContentContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/TabContentContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/pages/Home.js" afterDir="false" />
     </list>
@@ -32,24 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mayasundar/Documents/GitHub/mayasundar.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mayasundar/Documents/GitHub/mayasundar.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mayasundar.github.io/src/assets" />
       <recent name="$PROJECT_DIR$/mayasundar.github.io/public" />
     </key>
   </component>
