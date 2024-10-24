@@ -22,6 +22,19 @@ function Panel({ activeTab, setActiveTab, selectedLayer, handleLayerClick }) {
     useEffect(() => {
         setVisibleLayers([images[0]]);
     }, []);
+    
+    const handleLayerClick = (layer) => {
+        let newVisibleLayers = [];
+        if (layer === 1) {
+            newVisibleLayers = [images[0]];
+        } else if (layer === 2) {
+            newVisibleLayers = [images[0], images[1]];
+        } else if (layer === 3) {
+            newVisibleLayers = images;
+        }
+        setVisibleLayers(newVisibleLayers);
+        setSelectedLayer(layer);
+    };
 
     return (
         <div className="panel-container">
