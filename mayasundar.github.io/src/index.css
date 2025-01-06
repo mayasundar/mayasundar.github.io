@@ -1,16 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Karla&family=Overlock&display=swap');
+
+@font-face {
+  font-family: 'Maya';
+  src: local('Maya Font'), url(./assets/MayaFont-MayaRegular.otf) format('opentype');
+}
 
 body {
   margin: 0;
-  font-family: 'Amiko', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Maya', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
+  /*
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: 40px 40px;
   background-image: radial-gradient(circle, rgba(101, 116, 141, 0.46) 1px, rgba(0, 0, 0, 0) 1px);
   background-color: #F4F5F7;
   color: #65748D;
+}
+
+li{
+  font-family: 'Maya', sans-serif;
 }
 
 code {
@@ -109,7 +123,8 @@ li:not(:last-child) {
   background-color: rgba(255, 255, 255, 0.46);
   border: none;
   margin-bottom:-2px;
-  font-family: 'Amiko', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Maya', -apple-system, BlinkMacSystemFont, sans-serif;
+  /*font-family: 'Amiko', -apple-system, BlinkMacSystemFont, sans-serif;*/
   color:#6A788E;
 
 }
@@ -231,7 +246,7 @@ p.canvas-text{
   min-width: 40vw;
   min-height:32vh;
   justify-self: start;
-  font-size:14px;
+  /*font-size:14px;*/
   padding-top:5px;
   padding-bottom:10px;
   padding-left:20px;
@@ -401,7 +416,7 @@ p.canvas-text{
   max-width: 80vw;
   min-height:30vh;
   justify-self: start;
-  font-size:14px;
+  /*font-size:14px;*/
   padding-top:5px;
   padding-bottom:10px;
   padding-left:20px;

@@ -7,6 +7,7 @@ import outgoing from "../assets/outgoing.jpeg"
 import observability from "../assets/observability.jpeg"
 import mayasundar from "../assets/mayasundar.jpeg"
 import cit from "../assets/CIT.jpeg"
+import hibiscus from "../assets/hibiscus-sans.jpeg"
 
 function Layer2() {
     return (
@@ -19,6 +20,11 @@ function Layer2() {
                     <h4>Columbia in Tech (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Figma</div><div className="tool">Framer</div></h4>
                     <p>Designed a simple website to display our organization's goals, events, and initiatives. </p>
                     <img src={cit} alt="columbia in tech screen"/>
+                </div>
+                <div className="tbox">
+                    <h4>Hibiscus Sans (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Glyphs</div><div className="tool">Next.js</div><div className="tool">Figma</div></h4>
+                    <p>Created a sans serif font with a handwritten feel. Developed a minisite with Next.js. </p>
+                    <img src={hibiscus} alt="hibiscus sans font"/>
                 </div>
 
                 <div className="tbox">
@@ -40,6 +46,13 @@ function Layer2() {
                     <p>I architected infrastructure tooling to configure Elasticsearch and Kibana
                         dashboards, log shipping with Filebeat, and tools like Grafana and Prometheus.</p>
                     <img src={observability} alt="observability screen"/>
+                </div>
+
+                <div className="tbox">
+                    <h4>OutGoing · <div className="tool">React Native</div><div className="tool">Figma</div><div className="tool">Express</div></h4>
+                    <p>I worked on design and development for a project in my User Interface Design class, where we ideated a design solution to a problem our fellow students were facing -- planning and executing outings in NYC.</p>
+                    <p>I worked on the initial brand colors, buttons, and a handful of key wireframes. We worked on three iterations of the design with 4 user interviews between each iteration. Over a week and a half, we built the app in React Native with an Express/MongoDB backend.</p>
+                    <img src={outgoing} alt="outgoing screen"/>
                 </div>
 
                 <div className="tbox">
@@ -67,13 +80,6 @@ function Layer2() {
                         developed major components and built out the user's profile page.</p>
                     <p>I led the team through a migration from Flutter to React Native and modified sprint planning in Jira accordingly.</p>
                     <img src={mond} alt="mond app map"/>
-                </div>
-
-                <div className="tbox">
-                    <h4>OutGoing · <div className="tool">React Native</div><div className="tool">Figma</div><div className="tool">Express</div></h4>
-                    <p>I worked on design and development for a project in my User Interface Design class, where we ideated a design solution to a problem our fellow students were facing -- planning and executing outings in NYC.</p>
-                    <p>I worked on the initial brand colors, buttons, and a handful of key wireframes. We worked on three iterations of the design with 4 user interviews between each iteration. Over a week and a half, we built the app in React Native with an Express/MongoDB backend.</p>
-                    <img src={outgoing} alt="outgoing screen"/>
                 </div>
 
                 <div className="tbox">
