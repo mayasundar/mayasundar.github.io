@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&family=Karla&family=Overlock&display=swap');
 
+:root {
+  --font-family: 'Hibiscus Sans', sans-serif;
+}
+
 @font-face {
-  font-family: 'Maya';
-  src: local('Maya Font'), url(./assets/MayaFont-MayaRegular.otf) format('opentype');
+  font-family: var(--font-family);
+  src: local('Hibiscus Sans'), url(./assets/HibiscusSans-Regular.otf) format('opentype');
 }
 
 body {
-  margin: 0;
-  font-family: 'Maya', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: var(--font-family), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   /*
@@ -15,6 +18,7 @@ body {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   */
+  line-height:1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: 40px 40px;
@@ -24,7 +28,7 @@ body {
 }
 
 li{
-  font-family: 'Maya', sans-serif;
+  font-family: var(--font-family), sans-serif;
 }
 
 code {
@@ -123,7 +127,7 @@ li:not(:last-child) {
   background-color: rgba(255, 255, 255, 0.46);
   border: none;
   margin-bottom:-2px;
-  font-family: 'Maya', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-family), -apple-system, BlinkMacSystemFont, sans-serif;
   /*font-family: 'Amiko', -apple-system, BlinkMacSystemFont, sans-serif;*/
   color:#6A788E;
 
@@ -212,19 +216,6 @@ p.canvas-text{
 
 
 
-.child{
-
-  background: rgba(255, 255, 255, 0.46);
-  box-shadow: 0 0 2px rgba(0,0,0,0.2);
-  border-radius: 0.625rem;
-  min-width: 40vw;
-  height:auto;
-  justify-self: start;
-  font-size:22px;
-  word-wrap: anywhere;
-  padding:10px;
-  margin:10px;
-}
 
 .list-tab-content {
   height:auto;
@@ -246,7 +237,6 @@ p.canvas-text{
   min-width: 40vw;
   min-height:32vh;
   justify-self: start;
-  /*font-size:14px;*/
   padding-top:5px;
   padding-bottom:10px;
   padding-left:20px;
@@ -416,7 +406,6 @@ p.canvas-text{
   max-width: 80vw;
   min-height:30vh;
   justify-self: start;
-  /*font-size:14px;*/
   padding-top:5px;
   padding-bottom:10px;
   padding-left:20px;
@@ -449,6 +438,6 @@ p.canvas-text{
   display:inline-block;
   margin:3px;
   padding: 2px 5px;
-  font-size:12px;
+  font-size:14px;
 
 }

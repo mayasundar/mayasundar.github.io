@@ -22,8 +22,8 @@ function Layer2() {
                     <img src={cit} alt="columbia in tech screen"/>
                 </div>
                 <div className="tbox">
-                    <h4>Hibiscus Sans (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Glyphs</div><div className="tool">Next.js</div><div className="tool">Figma</div></h4>
-                    <p>Created a sans serif font with a handwritten feel. Developed a minisite with Next.js. </p>
+                    <h4>Hibiscus Sans (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Glyphs</div><div className="tool">Next.js</div></h4>
+                    <p>Created an informal/humanist sans serif font with flared terminals and a handwritten feel. Developed a minisite with Next.js. </p>
                     <img src={hibiscus} alt="hibiscus sans font"/>
                 </div>
 
