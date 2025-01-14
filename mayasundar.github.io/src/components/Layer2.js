@@ -7,7 +7,8 @@ import outgoing from "../assets/outgoing.jpeg"
 import observability from "../assets/observability.jpeg"
 import mayasundar from "../assets/mayasundar.jpeg"
 import cit from "../assets/CIT.jpeg"
-import hibiscus from "../assets/hibiscus-sans.jpeg"
+// import hibiscus from "../assets/hibiscus-sans.jpeg"
+import hibiscus from "../assets/hibiscus-site.jpeg"
 
 function Layer2() {
     return (
@@ -17,14 +18,15 @@ function Layer2() {
             <div>
                 <h1> Things I've Worked On ☺&#xFE0E;</h1>
                 <div className="tbox">
+                    <h4>Hibiscus Sans (<a href="https://hibiscus-sans.vercel.app/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Glyphs</div><div className="tool">Next.js</div></h4>
+                    <p>Produced a sans-serif typeface with flared terminals and a handwritten feel. Developed a minisite with Next.js. </p>
+                    <img src={hibiscus} alt="hibiscus sans font"/>
+                </div>
+
+                <div className="tbox">
                     <h4>Columbia in Tech (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Figma</div><div className="tool">Framer</div></h4>
                     <p>Designed a simple website to display our organization's goals, events, and initiatives. </p>
                     <img src={cit} alt="columbia in tech screen"/>
-                </div>
-                <div className="tbox">
-                    <h4>Hibiscus Sans (<a href="https://www.columbiaintech.com/" target="_blank" rel="noopener noreferrer">website</a>) · <div className="tool">Glyphs</div><div className="tool">Next.js</div></h4>
-                    <p>Created an informal/humanist sans serif font with flared terminals and a handwritten feel. Developed a minisite with Next.js. </p>
-                    <img src={hibiscus} alt="hibiscus sans font"/>
                 </div>
 
                 <div className="tbox">
@@ -32,10 +34,8 @@ function Layer2() {
                     <p>For 6 months, I worked on designing the brand identity and wireframes
                         for a student-to-student subletting service, developing the website,
                         and devising the product roadmap and requirements.</p>
-                    <p>I led weekly sprint planning meetings with the two other interns on the
-                        development team, reporting back to the founders with the deployment timeline and issues
-                        closed. I also led user interviews and incorporated
-                        feedback before deployment. I closed 18 issues and helped ship the site.</p>
+                    <p>I led weekly sprint planning meetings, reporting back to the founders with the deployment timeline and MVP progress. I conducted user interviews and incorporated
+                        feedback before deployment.</p>
                     <img src={studentstay} alt="student stay screenshot"/>
                 </div>
 
@@ -50,8 +50,8 @@ function Layer2() {
 
                 <div className="tbox">
                     <h4>OutGoing · <div className="tool">React Native</div><div className="tool">Figma</div><div className="tool">Express</div></h4>
-                    <p>I worked on design and development for a project in my User Interface Design class, where we ideated a design solution to a problem our fellow students were facing -- planning and executing outings in NYC.</p>
-                    <p>I worked on the initial brand colors, buttons, and a handful of key wireframes. We worked on three iterations of the design with 4 user interviews between each iteration. Over a week and a half, we built the app in React Native with an Express/MongoDB backend.</p>
+                    <p>I worked on design and development for a project in my User Interface Design class, where we came up with a design solution to a common problem our fellow students faced – planning and executing outings with friends in NYC.</p>
+                    <p>I worked on the initial brand colors, buttons, and a handful of key wireframes. We worked over three iterations, with 4 user interviews between each iteration. Over a week and a half, we built the app in React Native with an Express/MongoDB backend.</p>
                     <img src={outgoing} alt="outgoing screen"/>
                 </div>
 
@@ -75,10 +75,9 @@ function Layer2() {
                 <div className="tbox">
                     <h4>mond · <div className="tool">React Native</div><div className="tool">Flutter</div><div className="tool">Firebase</div><div className="tool">Jira</div></h4>
                     <p>For 6 months, I worked on a mobile app for improving dog-to-dog social
-                        interactions & access to parks. I worked on integration with the Google
-                        Maps API and the connection to our backend database of dog parks. I also
-                        developed major components and built out the user's profile page.</p>
-                    <p>I led the team through a migration from Flutter to React Native and modified sprint planning in Jira accordingly.</p>
+                        interactions & helping dog owners find local parks. I built out key components and integrated the Google
+                        Maps API and a database of dog parks with a search and filter system.</p>
+                    <p>I led the team through a migration from Flutter to React Native, refactored existing code, and modified the roadmap in Jira accordingly.</p>
                     <img src={mond} alt="mond app map"/>
                 </div>
 

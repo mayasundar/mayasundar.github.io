@@ -407,15 +407,19 @@ p.canvas-text{
   min-height:30vh;
   justify-self: start;
   padding-top:5px;
-  padding-bottom:10px;
+  padding-bottom:20px;
   padding-left:20px;
   padding-right:20px;
   margin-bottom:10px;
   background: rgba(255, 255, 255, 0.46);
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
   border-radius: 0.625rem;
+}
 
-
+.tbox h4{
+  margin-top: 10px;
+  margin-bottom:0;
+  padding:0;
 }
 
 .ttab{
