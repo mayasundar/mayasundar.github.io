@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4481d84-2f0d-49a3-aa52-e238ed4ff798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/src/assets/hibiscus-site.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mayasundar.github.io/public/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/assets/hibiscus-sans.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/components/Layer3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mayasundar.github.io/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
       <workItem from="1705942126078" duration="21817000" />
       <workItem from="1708631810936" duration="762000" />
       <workItem from="1710958253146" duration="332000" />
-      <workItem from="1736872967831" duration="3336000" />
+      <workItem from="1736872967831" duration="3900000" />
     </task>
     <servers />
   </component>
