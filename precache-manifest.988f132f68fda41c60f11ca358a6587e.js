@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "216da71045c6f5f22f65",
-    "url": "/static/css/main.370a0a7e.chunk.css"
+    "revision": "4500628e10d0b42bf0ed",
+    "url": "/static/css/main.c1a2550b.chunk.css"
   },
   {
-    "revision": "216da71045c6f5f22f65",
-    "url": "/static/js/main.216da710.chunk.js"
+    "revision": "4500628e10d0b42bf0ed",
+    "url": "/static/js/main.4500628e.chunk.js"
   },
   {
-    "revision": "03c018fb6e914630103e",
-    "url": "/static/js/1.03c018fb.chunk.js"
+    "revision": "cf042e081f8a87233510",
+    "url": "/static/js/1.cf042e08.chunk.js"
   },
   {
-    "revision": "7bb29678ccce9e3d68aa",
-    "url": "/static/js/2.7bb29678.chunk.js"
+    "revision": "ad36cd438620b84a698e",
+    "url": "/static/js/2.ad36cd43.chunk.js"
   },
   {
-    "revision": "8b5c839f13ce6f634a5e",
-    "url": "/static/js/runtime~main.8b5c839f.js"
+    "revision": "69133d183c995e1d60fc",
+    "url": "/static/js/runtime~main.69133d18.js"
+  },
+  {
+    "revision": "4262df4bea4689373daa1faa3dd998e5",
+    "url": "/static/media/HibiscusSans-Regular.4262df4b.otf"
   },
   {
     "revision": "9947a3dbcf280282f33e59b14fbe2587",
@@ -52,6 +56,10 @@ self.__precacheManifest = [
     "url": "/static/media/CIT.1b5cf224.jpeg"
   },
   {
+    "revision": "dcad04b450a4850e95e51309d7db01c4",
+    "url": "/static/media/hibiscus-site.dcad04b4.jpeg"
+  },
+  {
     "revision": "140b25baed054b5649e3d39b788f95c4",
     "url": "/static/media/image1.140b25ba.png"
   },
@@ -64,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/image3.d1fabc92.png"
   },
   {
-    "revision": "5aeae2fead73e463cb7b92079a4962c2",
+    "revision": "20a75b6730d3dd13257c3409470919d6",
     "url": "/index.html"
   }
 ];
