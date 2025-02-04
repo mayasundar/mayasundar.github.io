@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "4500628e10d0b42bf0ed",
-    "url": "/static/css/main.c1a2550b.chunk.css"
+    "revision": "e3f123ec39e8cb8da0ef",
+    "url": "/static/css/main.65863195.chunk.css"
   },
   {
-    "revision": "4500628e10d0b42bf0ed",
-    "url": "/static/js/main.4500628e.chunk.js"
+    "revision": "e3f123ec39e8cb8da0ef",
+    "url": "/static/js/main.e3f123ec.chunk.js"
   },
   {
-    "revision": "cf042e081f8a87233510",
-    "url": "/static/js/1.cf042e08.chunk.js"
+    "revision": "e8e3b76c5bf759905946",
+    "url": "/static/js/1.e8e3b76c.chunk.js"
   },
   {
-    "revision": "ad36cd438620b84a698e",
-    "url": "/static/js/2.ad36cd43.chunk.js"
+    "revision": "dae31c9a235810edd960",
+    "url": "/static/js/2.dae31c9a.chunk.js"
   },
   {
-    "revision": "69133d183c995e1d60fc",
-    "url": "/static/js/runtime~main.69133d18.js"
+    "revision": "316baba7ca5f9e773de3",
+    "url": "/static/js/runtime~main.316baba7.js"
   },
   {
-    "revision": "4262df4bea4689373daa1faa3dd998e5",
-    "url": "/static/media/HibiscusSans-Regular.4262df4b.otf"
+    "revision": "248f195808ccf558786634ab7bad6e31",
+    "url": "/static/media/HibiscusSans-Regular.248f1958.otf"
   },
   {
     "revision": "9947a3dbcf280282f33e59b14fbe2587",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/static/media/hibiscus-site.dcad04b4.jpeg"
   },
   {
+    "revision": "170221b04cf2893ee4009d74fc7aba22",
+    "url": "/static/media/four-quadrants.170221b0.jpeg"
+  },
+  {
     "revision": "140b25baed054b5649e3d39b788f95c4",
     "url": "/static/media/image1.140b25ba.png"
   },
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/image3.d1fabc92.png"
   },
   {
-    "revision": "20a75b6730d3dd13257c3409470919d6",
+    "revision": "f8dbc126383bc5bc6c7e6cb1138043ee",
     "url": "/index.html"
   }
 ];
