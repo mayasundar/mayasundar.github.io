@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4481d84-2f0d-49a3-aa52-e238ed4ff798" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Annetta.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CIT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/HibiscusSans-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hibiscus-site.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/joinstudentstay.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mayapaint_studio.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mayapaintstudio.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mayasundar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mond.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mond_app.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/observability.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/outgoing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/LayerContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/LayerSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KIsNHAm5MsRqeQFCNbtF9Cjfmy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mayasundar/Documents/GitHub/mayasundar.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/mayasundar/Documents/GitHub/mayasundar.github.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/mayasundar.github.io/src/assets" />
+      <recent name="$PROJECT_DIR$/mayasundar.github.io/public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4481d84-2f0d-49a3-aa52-e238ed4ff798" name="Changes" comment="" />
+      <created>1673673389953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673673389953</updated>
+      <workItem from="1673673391056" duration="2487000" />
+      <workItem from="1673713088240" duration="5925000" />
+      <workItem from="1673722393754" duration="1697000" />
+      <workItem from="1705942126078" duration="21817000" />
+      <workItem from="1708631810936" duration="762000" />
+      <workItem from="1710958253146" duration="332000" />
+      <workItem from="1736872967831" duration="3900000" />
+      <workItem from="1740678740161" duration="1827000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="2023" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

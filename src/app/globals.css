@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Karla&family=Overlock&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Hibiscus Sans';
+    src: url('../../public/HibiscusSans-Regular.otf') format('opentype');
+}
+
+/* Base styles */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+a:link {
+    font-weight: bold;
+    color: #D0A9A6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D0A9A6;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Component styles */
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    background-color: white;
+    background-opacity: 46%;
+    border: none;
+    margin-bottom: -2px;
+    font-family: 'Hibiscus Sans', sans-serif;
+    color: #6A788E;
+}
+
+.button:hover {
+    background-color: #EEE7E8;
+}
+
+.button:focus {
+    background-color: #E9E3E4;
+}
+
+.button.active {
+    background-color: #E9E3E4;
+}
+
+.tool {
+    color: rgba(101, 116, 141, 0.5);
+    border: 1px solid rgba(101, 116, 141, 0.5);
+    border-radius: 25px;
+    display: inline-block;
+    margin: 3px;
+    padding: 5px 2px;
+    font-size: 14px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgba(169, 192, 203, 0.14);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(169, 192, 203, 0.9);
+    border-radius: 20px;
+    border: 3px solid white;
+}
