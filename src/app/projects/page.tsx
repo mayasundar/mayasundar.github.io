@@ -1,16 +1,16 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { useSidebar, ProjectTag } from "../../components/SidebarContext";
-import HibiscusSans from "./components/HibiscusSans";
-import ColumbiaInTech from "../projects/components/ColumbiaInTech";
-import StudentStay from "./components/StudentStay";
-import ObservabilityApp from "./components/ObservabilityApp";
-import OutGoing from "./components/OutGoing";
-import AnnettaHomes from "./components/AnnettaHomes";
-import FourQuadrants from "./components/FourQuadrants";
-import MayaSundar from "./components/MayaSundar";
-import MayaPaintStudio from "./components/MayaPaintStudio";
-import Mond from "./components/Mond";
+import HibiscusSans from "./layers/HibiscusSans";
+import ColumbiaInTech from "./layers/ColumbiaInTech";
+import StudentStay from "./layers/StudentStay";
+import ObservabilityApp from "./layers/ObservabilityApp";
+import OutGoing from "./layers/OutGoing";
+import AnnettaHomes from "./layers/AnnettaHomes";
+import FourQuadrants from "./layers/FourQuadrants";
+import MayaSundar from "./layers/MayaSundar";
+import MayaPaintStudio from "./layers/MayaPaintStudio";
+import Mond from "./layers/Mond";
 
 const projectsData = {
     "HibiscusSans": {
