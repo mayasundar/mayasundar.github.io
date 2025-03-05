@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Involvement() {
     return (
         <div>
-            <h3>Involvement ☺&#xFE0E;</h3>
+            <h3>Community ☺&#xFE0E;</h3>
             <ul>
                 <li>
                     I'm an organizer with
@@ -12,7 +12,7 @@ export default function Involvement() {
                     We send a monthly newsletter with updates on our own initiatives & community contributions. 🦁
                 </li>
                 <li>
-                    In college, I helped build and grow
+                    In college, I spent most of my time growing
                     <Link href="https://columbiabuildlab.com/" target="_blank" rel="noopener noreferrer"> Columbia Build Lab</Link>, an incubator housed at Columbia Business School.
 
 
