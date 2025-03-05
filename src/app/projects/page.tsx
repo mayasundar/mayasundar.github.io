@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import { useSidebar, ProjectTag } from "../../components/SidebarContext";
 import HibiscusSans from "./components/HibiscusSans";
-import ColumbiaInTech from "./components/ColumbiaInTech";
+import ColumbiaInTech from "../projects/components/ColumbiaInTech";
 import StudentStay from "./components/StudentStay";
 import ObservabilityApp from "./components/ObservabilityApp";
 import OutGoing from "./components/OutGoing";
