@@ -2,9 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import { useSidebar } from "@/components/SidebarContext";
-import Interests from "./components/interests";
-import Hobbies from "./components/hobbies";
-import Involvement from "./components/involvement";
+import Interests from "./components/Interests";
+import Hobbies from "./components/Hobbies";
+import Involvement from "./components/Involvement";
 
 const componentsList = {
     Interests: Interests,

@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import { useSidebar, ProjectTag } from "@/components/SidebarContext";
 import HibiscusSans from "@/app/projects/components/HibiscusSans";
-import ColumbiainTech from "@/app/projects/components/ColumbiaInTech";
+import ColumbiaInTech from "@/app/projects/components/ColumbiaInTech";
 import StudentStay from "@/app/projects/components/StudentStay";
 import ObservabilityApp from "@/app/projects/components/ObservabilityApp";
 import OutGoing from "@/app/projects/components/OutGoing";
@@ -17,7 +17,7 @@ const projectsData = {
         name: "Hibiscus Sans",
         tags: ["all", "design", "web"] as ProjectTag[]
     },
-    "ColumbiainTech": {
+    "ColumbiaInTech": {
         name: "Columbia in Tech",
         tags: ["all", "web", "brand"] as ProjectTag[]
     },
@@ -59,7 +59,7 @@ const projectsData = {
 const componentsList: Record<string, React.ComponentType> = {
     HibiscusSans,
     FourQuadrants,
-    ColumbiainTech,
+    ColumbiaInTech,
     StudentStay,
     ObservabilityApp,
     OutGoing,

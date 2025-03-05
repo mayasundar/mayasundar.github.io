@@ -1,5 +1,5 @@
 "use client";
-import React, {ReactNode, useState, useEffect} from "react";
+import React, {ReactNode} from "react";
 import Link from "next/link";
 import { SidebarProvider, useSidebar, ProjectTag } from "./SidebarContext";
 import Image from 'next/image';

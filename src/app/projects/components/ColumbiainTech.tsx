@@ -1,13 +1,13 @@
 import cit from "../../../../public/cit.jpeg";
 import Image from "next/image";
 
-export default function ColumbiainTech() {
+export default function ColumbiaInTech() {
     return (
         <div>
             <div className="tbox">
                     <h3>Columbia in Tech</h3>
                 <div>
-                <a className="website" href="https://columbiaintech.com/" target="_blank" rel="noopener noreferrer">
+                <a className="website" href="https://columbiaintech.com/ColumbiaInTech.tsx" target="_blank" rel="noopener noreferrer">
                         website
                     </a>
                     <div className="tool">Figma</div>

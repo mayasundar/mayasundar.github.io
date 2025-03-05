@@ -3,8 +3,12 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import React from "react";
 
-export const hibiscus = localFont({ src: "../../public/HibiscusSans-Regular.otf" });
+const hibiscus = localFont({
+    src: "../../public/HibiscusSans-Regular.otf",
+    variable: '--font-hibiscus'
+});
 
 export const metadata: Metadata = {
     title: "Maya Sundar",

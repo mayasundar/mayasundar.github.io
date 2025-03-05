@@ -14,7 +14,11 @@ interface SidebarContextType {
     components: Record<string, ProjectComponent>;
     activeGroup: ProjectTag;
     visibleComponents: Record<string, boolean>;
-    initializeComponents: (componentIds: string[], pageKey: string) => void;
+    initializeComponents: (
+        componentIds: string[],
+        pageKey: string,
+        componentsData?: Record<string, { name: string, tags: ProjectTag[] }>
+    ) => void;
     setActiveGroup: (group: ProjectTag) => void;
     toggleComponentVisibility: (componentId: string) => void;
 }
@@ -35,7 +39,7 @@ export const SidebarProvider: React.FC<{ children: ReactNode }> = ({ children })
     const initializeComponents = useCallback((
         componentIds: string[],
         pageKey: string,
-        componentsData: Record<string, { name: string, tags: ProjectTag[] }> = {}
+        componentsData: Record<string, { name: string, tags: ProjectTag[] }>={}
     ) => {
         if (currentPage !== pageKey) {
             setCurrentPage(pageKey);
