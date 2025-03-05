@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "build": "next build && LC_ALL=C find \"out\" -type f -exec sed -i '' 's/\\/_next/\\.\\/_next/g' {} +",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && cp CNAME out/ && gh-pages -d out"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

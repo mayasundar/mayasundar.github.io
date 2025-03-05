@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "../components/Sidebar";
 import React from "react";
 
 const hibiscus = localFont({
     src: "../../public/HibiscusSans-Regular.otf",
-    variable: '--font-hibiscus'
+    variable: '--font-hibiscus',
+    display: 'swap',
 });
 
 export const metadata: Metadata = {

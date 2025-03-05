@@ -4,7 +4,7 @@ import Link from "next/link";
 import { SidebarProvider, useSidebar, ProjectTag } from "./SidebarContext";
 import Image from 'next/image';
 import Navbar from './Navbar';
-import Eye from '/public/eye.svg';
+import Eye from '../../public/eye.svg';
 import {usePathname} from "next/navigation";
 
 const workGroups: { id: ProjectTag; label: string }[] = [
