@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4481d84-2f0d-49a3-aa52-e238ed4ff798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fourquadrants.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/components/AnnettaHomes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/components/FourQuadrants.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/components/MayaPaintStudio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/components/MayaSundar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/components/Mond.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/components/Involvement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/components/Involvement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/components/ColumbiainTech.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/ColumbiainTech.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/components/HibiscusSans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/HibiscusSans.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/components/ObservabilityApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/ObservabilityApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/components/OutGoing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/OutGoing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/components/StudentStay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/StudentStay.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/work/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +70,8 @@
       <workItem from="1710958253146" duration="332000" />
       <workItem from="1736872967831" duration="3900000" />
       <workItem from="1740678740161" duration="1827000" />
-      <workItem from="1741143271727" duration="4570000" />
+      <workItem from="1741143271727" duration="5256000" />
+      <workItem from="1741188443410" duration="1522000" />
     </task>
     <servers />
   </component>
