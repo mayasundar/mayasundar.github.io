@@ -7,9 +7,9 @@ import Hobbies from "./components/hobbies";
 import Involvement from "./components/involvement";
 
 const componentsList = {
-    interests: Interests,
-    hobbies: Hobbies,
-    involvement: Involvement,
+    Interests: Interests,
+    Hobbies: Hobbies,
+    Involvement: Involvement,
 };
 
 const About = () => {
@@ -21,6 +21,7 @@ const About = () => {
             initialized.current = true;
             initializeComponents(
                 Object.keys(componentsList),
+                "about"
             );
         }
     }, [initializeComponents]);
@@ -31,7 +32,11 @@ const About = () => {
             <div className="tbox">
                 {Object.entries(componentsList).map(
                     ([key, Component]) =>
-                        visibleComponents[key] ? <Component key={key} /> : null
+                        visibleComponents[key] && (
+                            <div key={key} data-component-id={key}>
+                                <Component />
+                            </div>
+                        )
                 )}
             </div>
         </div>
