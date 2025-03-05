@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && LC_ALL=C find \"out\" -type f -exec sed -i '' 's/\\/_next/\\.\\/_next/g' {} +",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "deploy": "next build && touch out/.nojekyll && cp CNAME out/ && gh-pages -d out"

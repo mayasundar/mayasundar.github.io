@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4481d84-2f0d-49a3-aa52-e238ed4ff798" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/components/ColumbiaInTech.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/components/ColumbiaInTech.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1741188443410" duration="1522000" />
       <workItem from="1741198886452" duration="179000" />
       <workItem from="1741199069383" duration="348000" />
-      <workItem from="1741199432250" duration="5920000" />
+      <workItem from="1741199432250" duration="6261000" />
     </task>
     <servers />
   </component>
