@@ -5,7 +5,7 @@ import { SidebarProvider, useSidebar, ProjectTag } from "./SidebarContext";
 import Image from 'next/image';
 import Navbar from './Navbar';
 import Eye from '../../public/eye.svg';
-import {usePathname} from "next/navigation";
+import {usePathname, useSearchParams, useRouter} from "next/navigation";
 
 const workGroups: { id: ProjectTag; label: string }[] = [
     { id: "all", label: "All Projects" },
@@ -19,7 +19,6 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
     return (
         <SidebarProvider>
             <div className="container">
-
                 <div className="sidebar">
                     <SidebarContent />
                 </div>
@@ -35,7 +34,10 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
 const SidebarContent = () => {
     const { components, activeGroup, setActiveGroup, toggleComponentVisibility, visibleComponents } = useSidebar();
     const pathname = usePathname();
+    const searchParams = useSearchParams();
+    const router = useRouter();
     const isWorkPage = pathname?.startsWith("/projects");
+    const showBlogInSidebar = searchParams.get("blogInSidebar") === "true";
 
     const pages = [
         { name: "About", path: "/about" },
@@ -51,19 +53,24 @@ const SidebarContent = () => {
         }
     };
 
+    const isBlogActive = pathname === "/blog?mini=true" || showBlogInSidebar;
+
     return (
         <div className="panel-container">
             <Navbar></Navbar>
             <div className="pages-layers">
                 <div>
-                <p className="text-sm font-semibold text-gray-600">Pages</p>
                     <div className="layer-group-container">
                         <div className="space-y-1">
                         {pages.map((page) => (
                         <Link
                             key={page.path}
                             href={page.path}
-                            className={`layer-button ${pathname === page.path ? "active" : ""}`}
+                            className={`layer-button ${
+                                (pathname === page.path ||
+                                    (page.name === "Blog" && isBlogActive))
+                                    ? "active" : ""
+                            }`}
                         >
                             {page.name}
                         </Link>
