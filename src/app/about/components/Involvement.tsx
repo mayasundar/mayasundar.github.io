@@ -6,14 +6,12 @@ export default function Involvement() {
             <h3>Community ☺&#xFE0E;</h3>
             <ul>
                 <li>
-                    I'm an organizer with
-                    <Link href="https://columbiaintech.com" target="_blank" rel="noopener noreferrer"> Columbia in Tech</Link>
+                    I'm an organizer with <Link className="link" href="https://columbiaintech.com" target="_blank" rel="noopener noreferrer">Columbia in Tech</Link>
                     , a community of Columbia alumni working in technology. I work on our brand & digital strategy.
                     We send a monthly newsletter with updates on our own initiatives & community contributions. 🦁
                 </li>
                 <li>
-                    In college, I spent most of my time growing
-                    <Link href="https://columbiabuildlab.com/" target="_blank" rel="noopener noreferrer"> Columbia Build Lab</Link>, an incubator housed at Columbia Business School.
+                    In college, I spent most of my time growing <Link className="link" href="https://columbiabuildlab.com/" target="_blank" rel="noopener noreferrer">Columbia Build Lab</Link>, an incubator housed at Columbia Business School.
 
 
                     {/*I served as undergraduate co-president of the program for nearly two years.*/}
