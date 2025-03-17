@@ -1,12 +1,12 @@
 "use client";
-import { useSidebar } from "../../components/SidebarContext";
+import { useSidebar, ProjectTag } from "../../components/SidebarContext";
 import { projectsData } from "./projectData";
 import Image from "next/image";
 
 const List = () => {
     const { visibleComponents, setActiveGroup } = useSidebar();
-    const handleTagClick = (tag: string) => {
-        const validTags = ["all", "web", "mobile", "design", "brand"];
+    const handleTagClick = (tag: ProjectTag) => {
+        const validTags: ProjectTag[] = ["all", "web", "mobile", "design", "brand"];
         if (validTags.includes(tag)) {
             setActiveGroup(tag);
         }
