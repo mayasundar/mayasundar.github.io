@@ -13,6 +13,7 @@ interface PostMetaData{
 
 interface PostData extends PostMetaData{
     slug: string;
+    content: string;
 }
 
 interface PostWithHTML extends PostData {
