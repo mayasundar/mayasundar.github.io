@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const List = () => {
     const { visibleComponents, setActiveGroup } = useSidebar();
-    const handleTagClick = (tag) => {
+    const handleTagClick = (tag: string) => {
         const validTags = ["all", "web", "mobile", "design", "brand"];
         if (validTags.includes(tag)) {
             setActiveGroup(tag);
