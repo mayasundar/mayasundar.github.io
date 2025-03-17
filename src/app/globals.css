@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&family=Karla&family=Fragment+Mono&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700");
 @import url("https://fonts.googleapis.com/css?family=Cabin:400,700");
 
 @tailwind base;
@@ -19,8 +16,8 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
-    color: #515151;
-
+    color: #5D5D5D;
+    cursor:url('../../public/cursor.svg'), auto;
 
 }
 
@@ -68,15 +65,17 @@ html, body {
     display:inline-flex;
     min-width: 30vw;
     /*background: #EFEFEF;*/
-    /*background-image: url('/ee.svg' );*/
-    /*background-color: #fafafa;*/
-    background-image: url('/ee.svg' );
+    /*background-image: url('/ok.svg' );*/
+    /*background-color: #EFEFEF;*/
+
+    /*background-image: url('/cleaner.svg' );*/
+    background-color: rgba(255, 253, 250, 0.66);
 
     border-radius: 0.625rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     /*filter: drop-shadow(1px 1px 1px #DADADA);*/
     background-size:cover;
-    color: #515151;
+    color: #5D5D5D;
 }
 
 .content {
@@ -85,8 +84,10 @@ html, body {
     width: 100%;
     gap: 2em;
     padding: 1rem;
-    background-image: url('/ok.svg' );
+    /*background-image: url('/noise.svg' );*/
     /*background-color: #fafafa;*/
+    background-color: #FCFAFA;
+
     border-radius: 0.625rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     filter: drop-shadow(1px 1px 1px #DADADA);
@@ -147,22 +148,10 @@ a:link {
     text-decoration: none;
 }
 
-.tbox a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #D0A9A6;
+.link:hover {
+    text-decoration: underline;
 }
 
-.tool {
-    color: rgba(101, 116, 141, 0.8);
-    border-radius: 25px;
-    display: inline-block;
-    margin: 3px;
-    padding: 2px 4px;
-    font-family: "Cabin", sans-serif;
-    font-size: 16px;
-
-}
 
 .layer-group-container {
     /*border-radius: 10px;*/
@@ -179,7 +168,7 @@ a:link {
 
 .layer-group-label {
     text-align: start;
-    background: #EDEEF0;
+    background: #F7F1F1;
     font-family: "Cabin", sans-serif;
     font-size: 12px;
     width: 100%;
@@ -191,7 +180,7 @@ a:link {
 }
 
 .layer-group-label:hover {
-    background: #EDEEF0;
+    background: #EFE5E5;
 }
 
 .layer-button {
@@ -204,15 +193,21 @@ a:link {
     border: none;
     font-family: 'Hibiscus Sans', sans-serif;
     font-size: 14px;
-    cursor: pointer;
     transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
     padding: 6px 12px 6px 2px;
-    border-bottom: 1px solid rgb(192, 197, 204);
+    border-bottom: 1px solid #EFE5E5;
 }
 
 .layer-button:hover {
-    background: #F2F2F2;
+    background: #F7F1F1;
 }
+
+.layer-button:focus {
+    background: #F7F1F1;
+    /*border-bottom: 1px solid #F7F1F1;*/
+
+}
+
 
 @media (max-width: 867px) {
     * {
@@ -274,18 +269,59 @@ a:link {
 .website {
     justify-content: center;
     border-radius: 1rem;
-    border: 2px solid #D0A9A6;
-    color: #6A788E;
-    display: inline-block;
+    background-color: rgba(247, 241, 241);
+    /*color: #6A788E;*/
+    display: inline-flex;
     font-family: "Cabin", sans-serif;
     box-sizing: border-box;
-    padding: 2px 4px;
+    padding: 0 6px;
     font-size: 14px;
+    color: #5D5D5D;
+}
+
+.tag {
+    justify-content: center;
+    border-radius: 1rem;
+    /*background-color: rgba(247, 241, 241);*/
+    /*color: #6A788E;*/
+    display: inline-flex;
+    font-family: "Cabin", sans-serif;
+    box-sizing: border-box;
+    padding: 0 6px;
+    font-size: 14px;
+    border: solid 1px;
+}
+
+.tag:hover{
+    background-color: rgba(247, 241, 241);
 
 }
 
-.website a {
-    text-decoration: none;
+
+.tool {
+    /*color: rgba(101, 116, 141, 0.8);*/
     color: #D0A9A6;
+    border-radius: 25px;
+    display: inline-flex;
+    margin: 3px;
+    padding: 0 6px;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.tbox a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #D0A9A6;
+}
+
+.website:hover{
+    background: #EFE5E5;
+}
+
+.map{
+    gap: 8px;
 }
 
