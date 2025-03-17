@@ -4,6 +4,21 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
+interface PostMetaData{
+    title: string;
+    date: string;
+    excerpt: string;
+
+}
+
+interface PostData extends PostMetaData{
+    slug: string;
+}
+
+interface PostWithHTML extends PostData {
+    contentHtml: string;
+}
+
 const postsDirectory = path.join(process.cwd(), '/content');
 
 export function getAllPostSlugs() {
@@ -18,20 +33,23 @@ export function getAllPostSlugs() {
     });
 }
 
-export function getPostData(slug: string) {
+export function getPostData(slug: string): PostData {
     const fullPath = path.join(postsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
 
     const matterResult = matter(fileContents);
+    const metadata = matterResult.data as Partial<PostMetaData>;
 
     return {
         slug,
-        ...matterResult.data,
-        content: matterResult.content
+        title: metadata.title ?? "Untitled",
+        date: metadata.date ?? "Unknown",
+        excerpt: metadata.excerpt ?? "",
+        content: matterResult.content,
     };
 }
 
-export async function getPostWithHTML(slug:string) {
+export async function getPostWithHTML(slug:string):  Promise<PostWithHTML>{
     const post = getPostData(slug);
     const processedContent = await remark()
         .use(html)
@@ -44,10 +62,6 @@ export async function getPostWithHTML(slug:string) {
     };
 }
 
-interface PostData {
-    slug: string;
-    [key:string]: any;
-}
 
 export function getAllPosts(): PostData[] {
     const fileNames = fs.readdirSync(postsDirectory);
@@ -58,10 +72,14 @@ export function getAllPosts(): PostData[] {
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
         const matterResult = matter(fileContents);
+        const metadata = matterResult.data as Partial<PostMetaData>;
 
         return {
             slug,
-            ...matterResult.data
+            title: metadata.title ?? "Untitled",
+            date: metadata.date ?? "Unknown",
+            excerpt: metadata.excerpt ?? "",
+            content: matterResult.content,
         };
     });
 
