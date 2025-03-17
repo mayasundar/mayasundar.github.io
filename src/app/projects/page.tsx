@@ -6,7 +6,7 @@ import Grid from "@/app/projects/grid";
 import {projectsData} from "./projectData";
 
 const Projects = () => {
-    const [activeView, setActiveView] = useState<ViewType>("list");
+    // const [activeView, setActiveView] = useState<ViewType>("list");
     const { visibleComponents, initializeComponents } = useSidebar();
     const initialized = useRef(false);
 
@@ -46,9 +46,9 @@ const Projects = () => {
                 {/*    Grid View*/}
                 {/*</button>*/}
             </div>
-            <div className="flex-grow">
-                {activeView === "list" ? <List /> : <Grid />}
-            </div>
+            {/*<div className="flex-grow">*/}
+            {/*    {activeView === "list" ? <List /> : <Grid />}*/}
+            {/*</div>*/}
             </div>
     );
 };
