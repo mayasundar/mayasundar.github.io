@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { useSidebar, ProjectTag } from "../../components/SidebarContext";
+import { useSidebar } from "../../components/SidebarContext";
 import List from "@/app/projects/list";
 import Grid from "@/app/projects/grid";
-import {componentsList, projectsData} from "./projectData";
+import {projectsData} from "./projectData";
 
 const Projects = () => {
     const [activeView, setActiveView] = useState<ViewType>("list");
