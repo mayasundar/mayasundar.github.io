@@ -42,7 +42,7 @@ const SidebarContent = () => {
     const pages = [
         { name: "About", path: "/about" },
         { name: "Projects", path: "/projects" },
-        { name: "Blog", path: "/blog" }
+        // { name: "Blog", path: "/blog" }
     ];
 
     const handleComponentClick = (componentId: string) => {
@@ -59,6 +59,7 @@ const SidebarContent = () => {
         <div className="panel-container">
             <Navbar></Navbar>
             <div className="pages-layers">
+                <h4 className="text-sm font-semibold text-gray-600">Pages</h4>
                 <div>
                     <div className="layer-group-container">
                         <div className="space-y-1">
@@ -80,7 +81,7 @@ const SidebarContent = () => {
                 </div>
 
                 <div>
-                    <p className="text-sm font-semibold text-gray-600">Layers</p>
+                    <h4 className="text-sm font-semibold text-gray-600">Layers</h4>
                     {isWorkPage && (
                         <div className="layer-group-container">
                             <div className="space-y-1">

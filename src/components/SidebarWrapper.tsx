@@ -5,7 +5,7 @@ import React from "react";
 export default function SidebarWrapper({ children }: { children: React.ReactNode }) {
 
     return (
-        <div className="flex">
+        <div className="panel-container">
             <Sidebar>
             {children}</Sidebar>
         </div>
