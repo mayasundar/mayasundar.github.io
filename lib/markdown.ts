@@ -18,7 +18,7 @@ export function getAllPostSlugs() {
     });
 }
 
-export function getPostData(slug) {
+export function getPostData(slug: string) {
     const fullPath = path.join(postsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
 
