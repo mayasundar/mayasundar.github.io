@@ -1,11 +1,11 @@
 import { getPostWithHTML, getAllPostSlugs } from '../../../../lib/markdown';
 
-interface PostProps{
+interface PageProps{
     params:{
         slug:string;
     };
 }
-export default async function Post({ params }: PostProps) {
+export default async function Post({ params }: PageProps) {
     const postData = await getPostWithHTML(params.slug);
 
     return (
@@ -17,7 +17,7 @@ export default async function Post({ params }: PostProps) {
     );
 }
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
     const paths = getAllPostSlugs();
-    return paths.map(path => ({slug: path.params.slug}));
+    return paths.map(({ params }) => ({ slug: params.slug }));
 }
