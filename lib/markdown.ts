@@ -31,7 +31,7 @@ export function getPostData(slug) {
     };
 }
 
-export async function getPostWithHTML(slug) {
+export async function getPostWithHTML(slug:string) {
     const post = getPostData(slug);
     const processedContent = await remark()
         .use(html)
@@ -44,7 +44,12 @@ export async function getPostWithHTML(slug) {
     };
 }
 
-export function getAllPosts() {
+interface PostData {
+    slug: string;
+    [key:string]: any;
+}
+
+export function getAllPosts(): PostData[] {
     const fileNames = fs.readdirSync(postsDirectory);
     const allPostsData = fileNames.map(fileName => {
         const slug = fileName.replace(/\.md$/, '');
