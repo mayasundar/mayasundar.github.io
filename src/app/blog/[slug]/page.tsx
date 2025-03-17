@@ -17,7 +17,7 @@ export default async function Post({ params }: PageProps) {
     );
 }
 
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
+export async function generateStaticParams() {
     const paths = getAllPostSlugs();
     return paths.map(({ params }) => ({ slug: params.slug }));
 }
