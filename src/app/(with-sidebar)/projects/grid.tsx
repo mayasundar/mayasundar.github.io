@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { useSidebar } from "../../components/SidebarContext";
+import { useSidebar } from "../../../components/SidebarContext";
 import { projectsData } from "./projectData";
 
 const Grid = () => {

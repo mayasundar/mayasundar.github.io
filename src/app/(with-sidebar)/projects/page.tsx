@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { useSidebar } from "../../components/SidebarContext";
-import List from "@/app/projects/list";
+import { useSidebar } from "../../../components/SidebarContext";
+import List from "@/app/(with-sidebar)/projects/list";
 import {projectsData} from "./projectData";
 
 const Projects = () => {

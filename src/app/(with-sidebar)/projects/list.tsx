@@ -1,7 +1,8 @@
 "use client";
-import { useSidebar, ProjectTag } from "../../components/SidebarContext";
+import { useSidebar, ProjectTag } from "../../../components/SidebarContext";
 import { projectsData } from "./projectData";
 import Image from "next/image";
+import {useState} from "react";
 
 const List = () => {
     const { visibleComponents, setActiveGroup, activeGroup } = useSidebar();
@@ -9,6 +10,12 @@ const List = () => {
         const validTags: ProjectTag[] = ["all", "web", "mobile", "design", "brand"];
         if (validTags.includes(tag)) {
             setActiveGroup(tag);
+        }
+    };
+    const handleProjectClick = (blogUrl?: string, websiteUrl?: string) => {
+        const targetUrl = blogUrl || websiteUrl;
+        if (targetUrl) {
+            window.open(targetUrl, "_blank");
         }
     };
 
@@ -22,7 +29,9 @@ const List = () => {
                     ([key, project]) =>
                         visibleComponents[key] && (
                             <div key={key} data-component-id={key}>
-                                <div className="tbox ">
+                                <div className="tbox projbox"
+                                     onClick={() => handleProjectClick(project.blogUrl, project.websiteUrl)}
+                                >
 
                                     <div className="flex items-baseline gap-6">
                                         <div>

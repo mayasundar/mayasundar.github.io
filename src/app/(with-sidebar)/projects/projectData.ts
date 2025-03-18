@@ -1,16 +1,16 @@
 "use client";
 
 import { StaticImageData } from "next/image";
-import hs from "../../../public/hibiscus-site.jpeg";
-import cit from "../../../public/cit.jpeg";
-import s from "../../../public/joinstudentstay.jpeg";
-import os from "../../../public/observability.jpeg";
-import og from "../../../public/outgoing.jpeg";
-import mp from "../../../public/mayapaintstudio.jpeg";
-import ah from "../../../public/Annetta.jpeg";
-import m from "../../../public/mond.jpeg";
-import ms from "../../../public/mayasundar.jpeg";
-import fq from "../../../public/fourquadrants.jpeg";
+import hs from "../../../../public/hibiscus-site.jpeg";
+import cit from "../../../../public/cit.jpeg";
+import s from "../../../../public/joinstudentstay.jpeg";
+import os from "../../../../public/observability.jpeg";
+import og from "../../../../public/outgoing.jpeg";
+import mp from "../../../../public/mayapaintstudio.jpeg";
+import ah from "../../../../public/Annetta.jpeg";
+import m from "../../../../public/mond.jpeg";
+import ms from "../../../../public/mayasundar.jpeg";
+import fq from "../../../../public/fourquadrants.jpeg";
 
 export type ProjectTag = "all" | "web" | "mobile" | "design" | "brand";
 
