@@ -12,12 +12,6 @@ const List = () => {
             setActiveGroup(tag);
         }
     };
-    const handleProjectClick = (blogUrl?: string, websiteUrl?: string) => {
-        const targetUrl = blogUrl || websiteUrl;
-        if (targetUrl) {
-            window.open(targetUrl, "_blank");
-        }
-    };
 
     const projTag = activeGroup.charAt(0).toUpperCase() + activeGroup.slice(1);
 
@@ -29,10 +23,7 @@ const List = () => {
                     ([key, project]) =>
                         visibleComponents[key] && (
                             <div key={key} data-component-id={key}>
-                                <div className="tbox projbox"
-                                     onClick={() => handleProjectClick(project.blogUrl, project.websiteUrl)}
-                                >
-
+                                <div className="tbox projbox">
                                     <div className="flex items-baseline gap-6">
                                         <div>
                                             <h3>{project.name}</h3>
