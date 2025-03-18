@@ -106,7 +106,6 @@ const SidebarContent = () => {
                                                                 onClick={() => toggleComponentVisibility(component.id)}
                                                             />
                                                             <label htmlFor={`component-${component.id}`}
-                                                                   className="cursor-pointer"
                                                             >
                                                                 {component.name}
                                                             </label>
@@ -134,7 +133,7 @@ const SidebarContent = () => {
                                         className={`cursor-pointer ${visibleComponents[component.id] ? "opacity-90" : "opacity-50"}`}
                                         onClick={() => toggleComponentVisibility(component.id)}
                                     />
-                                    <label htmlFor={`component-${component.id}`} className="cursor-pointer">
+                                    <label htmlFor={`component-${component.id}`}>
                                         {component.name}
                                     </label>
                                 </p>

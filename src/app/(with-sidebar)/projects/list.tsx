@@ -23,8 +23,8 @@ const List = () => {
                     ([key, project]) =>
                         visibleComponents[key] && (
                             <div key={key} data-component-id={key}>
-                                <div className="tbox projbox">
-                                    <div className="flex items-baseline gap-6">
+                                <div className="tbox">
+                                    <div className="flex items-baseline map">
                                         <div>
                                             <h3>{project.name}</h3>
                                         </div>

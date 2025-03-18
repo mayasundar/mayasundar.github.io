@@ -18,7 +18,6 @@
     box-sizing: border-box;
     color: #5D5D5D;
     cursor:url('../../public/cursor.svg'), auto;
-
 }
 
 html, body {
@@ -275,26 +274,24 @@ a:link {
     font-family: "Cabin", sans-serif;
     box-sizing: border-box;
     padding: 0 6px;
-    font-size: 14px;
-    color: #5D5D5D;
+    font-size: 16px;
+    border: solid 1px #EFE5E5;
 }
 
 .tag {
     justify-content: center;
-    border-radius: 1rem;
-    /*background-color: rgba(247, 241, 241);*/
+    background-color: rgba(247, 241, 241);
     /*color: #6A788E;*/
     display: inline-flex;
     font-family: "Cabin", sans-serif;
     box-sizing: border-box;
     padding: 0 6px;
     font-size: 14px;
-    border: solid 1px;
+    border: solid 1px #EFE5E5;
 }
 
 .tag:hover{
-    background-color: rgba(247, 241, 241);
-
+    background: #EFE5E5;
 }
 
 
@@ -323,8 +320,4 @@ a:link {
 
 .map{
     gap: 8px;
-}
-
-.projbox:hover{
-    background-color: rgba(247, 241, 241, 0.5);
 }
