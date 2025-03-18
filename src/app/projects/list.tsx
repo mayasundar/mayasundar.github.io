@@ -4,7 +4,7 @@ import { projectsData } from "./projectData";
 import Image from "next/image";
 
 const List = () => {
-    const { visibleComponents, setActiveGroup } = useSidebar();
+    const { visibleComponents, setActiveGroup, activeGroup } = useSidebar();
     const handleTagClick = (tag: ProjectTag) => {
         const validTags: ProjectTag[] = ["all", "web", "mobile", "design", "brand"];
         if (validTags.includes(tag)) {
@@ -12,9 +12,11 @@ const List = () => {
         }
     };
 
+    const projTag = activeGroup.charAt(0).toUpperCase() + activeGroup.slice(1);
+
     return (
         <div>
-            <h3>Projects ☺&#xFE0E;</h3>
+            <h3>{projTag} Projects ☺&#xFE0E;</h3>
             <div>
                 {Object.entries(projectsData).map(
                     ([key, project]) =>

@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useSidebar } from "../../components/SidebarContext";
 import List from "@/app/projects/list";
-import Grid from "@/app/projects/grid";
 import {projectsData} from "./projectData";
 
 const Projects = () => {
@@ -49,6 +48,7 @@ const Projects = () => {
             {/*<div className="flex-grow">*/}
             {/*    {activeView === "list" ? <List /> : <Grid />}*/}
             {/*</div>*/}
+             <List/>
             </div>
     );
 };
