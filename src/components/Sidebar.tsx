@@ -5,7 +5,7 @@ import { SidebarProvider, useSidebar, ProjectTag } from "./SidebarContext";
 import Image from 'next/image';
 import Navbar from './Navbar';
 import Eye from '../../public/eye.svg';
-import {usePathname, useSearchParams, useRouter} from "next/navigation";
+import {usePathname} from "next/navigation";
 
 const workGroups: { id: ProjectTag; label: string }[] = [
     { id: "all", label: "All Projects" },
@@ -34,15 +34,11 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
 const SidebarContent = () => {
     const { components, activeGroup, setActiveGroup, toggleComponentVisibility, visibleComponents } = useSidebar();
     const pathname = usePathname();
-    const searchParams = useSearchParams();
-    const router = useRouter();
     const isWorkPage = pathname?.startsWith("/projects");
-    const showBlogInSidebar = searchParams.get("blogInSidebar") === "true";
 
     const pages = [
         { name: "About", path: "/about" },
         { name: "Projects", path: "/projects" },
-        // { name: "Blog", path: "/blog" }
     ];
 
     const handleComponentClick = (componentId: string) => {
@@ -53,7 +49,6 @@ const SidebarContent = () => {
         }
     };
 
-    const isBlogActive = pathname === "/blog?mini=true" || showBlogInSidebar;
 
     return (
         <div className="panel-container">
@@ -68,8 +63,7 @@ const SidebarContent = () => {
                             key={page.path}
                             href={page.path}
                             className={`layer-button ${
-                                (pathname === page.path ||
-                                    (page.name === "Blog" && isBlogActive))
+                                (pathname === page.path)
                                     ? "active" : ""
                             }`}
                         >
