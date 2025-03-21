@@ -11,7 +11,7 @@ interface PostMetaData{
 
 }
 
-interface PostData extends PostMetaData{
+export interface PostData extends PostMetaData{
     slug: string;
     content: string;
 }
