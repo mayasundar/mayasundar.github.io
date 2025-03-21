@@ -35,10 +35,12 @@ const SidebarContent = () => {
     const { components, activeGroup, setActiveGroup, toggleComponentVisibility, visibleComponents } = useSidebar();
     const pathname = usePathname();
     const isWorkPage = pathname?.startsWith("/projects");
+    const isBlog = pathname?.startsWith("/blog");
 
     const pages = [
         { name: "About", path: "/about" },
         { name: "Projects", path: "/projects" },
+        { name: "Blog", path: "/blog" },
     ];
 
     const handleComponentClick = (componentId: string) => {
@@ -93,7 +95,7 @@ const SidebarContent = () => {
                                                 {Object.values(components)
                                                     .filter(comp => comp.tags.includes(activeGroup) || activeGroup === "all")
                                                     .map((component) => (
-                                                        <p key={component.id} className="layer-button"
+                                                        <div key={component.id} className="layer-button"
                                                            onClick={() => handleComponentClick(component.id)}
                                                         >
 
@@ -109,7 +111,7 @@ const SidebarContent = () => {
                                                             >
                                                                 {component.name}
                                                             </label>
-                                                        </p>
+                                                        </div>
                                                     ))}
                                             </div>
                                         )}
@@ -119,20 +121,22 @@ const SidebarContent = () => {
                         </div>
                     )}
 
-                    {!isWorkPage && Object.keys(components).length > 0 && (
+                    {!isWorkPage &&  (
                         <div className="layer-group-container">
 
                         <div className="space-y-1">
                             {Object.values(components).map((component) => (
                                 <p key={component.id} className="layer-button">
-                                    <Image
-                                        src={Eye}
-                                        alt="Toggle visibility"
-                                        width={17}
-                                        height={17}
-                                        className={`cursor-pointer ${visibleComponents[component.id] ? "opacity-90" : "opacity-50"}`}
-                                        onClick={() => toggleComponentVisibility(component.id)}
-                                    />
+                                    {!isBlog &&(
+                                            <Image
+                                                src={Eye}
+                                                alt="Toggle visibility"
+                                                width={17}
+                                                height={17}
+                                                className={`cursor-pointer ${visibleComponents[component.id] ? "opacity-90" : "opacity-50"}`}
+                                                onClick={() => toggleComponentVisibility(component.id)}
+                                            />
+                                    )}
                                     <label htmlFor={`component-${component.id}`}>
                                         {component.name}
                                     </label>
