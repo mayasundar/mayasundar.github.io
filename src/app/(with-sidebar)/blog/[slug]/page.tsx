@@ -5,7 +5,9 @@ interface PageProps{
         slug:string;
     };
 }
-export default async function Post({ params }: PageProps) {
+type Params = Promise<{ slug: string }>;
+
+export default async function Post({ params }: { params: Params }) {
     const { slug } = await params;
     const postData = await getPostWithHTML(slug);
 
