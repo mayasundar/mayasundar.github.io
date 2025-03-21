@@ -13,7 +13,7 @@ export default function SidebarInitializer({ posts }: SidebarInitializerProps) {
 
     useEffect(() => {
         if (!initialized.current) {
-            const componentsList = {};
+            const componentsList: Record<string, { name: string; tags: ("all")[] }> = {};
             posts.forEach(post => {
                 componentsList[post.slug] = {
                     name: post.title,
