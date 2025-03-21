@@ -22,7 +22,7 @@ interface PostWithHTML extends PostData {
 
 const postsDirectory = path.join(process.cwd(), '/content');
 
-export function getAllPostSlugs() {
+export function getAllPostSlugs(): { params: { slug: string } }[] {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map(fileName => {

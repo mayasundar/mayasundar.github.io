@@ -1,8 +1,13 @@
 "use client";
 import { useEffect, useRef } from 'react';
 import { useSidebar } from "@/components/SidebarContext";
+import {PostData} from "../../lib/markdown";
 
-export default function SidebarInitializer({ posts }) {
+interface SidebarInitializerProps {
+    posts: PostData[];
+}
+
+export default function SidebarInitializer({ posts }: SidebarInitializerProps) {
     const { initializeComponents } = useSidebar();
     const initialized = useRef(false);
 
