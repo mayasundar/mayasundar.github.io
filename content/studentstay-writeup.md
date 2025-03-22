@@ -33,7 +33,7 @@ didn't want any single color to overpower the page, so gradients became a major
 asset in keeping the brand light and friendly—we used them exclusively for
 cards, and the rest of our components used the solid brand colors.
 
-![image info](/Student-Stay-Colors.png)
+![image info](/student-stay-colors.png)
 
 ## Logo
 The logo was an important focus. We decided that the name was self-explanatory
@@ -53,7 +53,7 @@ We thought the logotype on its own worked well, so we kept it simple and
 used Josefin Sans for our headings and subheadings, too. 
 For the body text and any secondary elements, we went with Lato, 
 a highly readable sans-serif with a roundness to its terminals.
-![image info](/Student-Stay-Type.png)
+![image info](/student-stay-type.png)
 
 ## UI and Wireframes
 After defining the logo, colors, and typography, I moved over to working on
