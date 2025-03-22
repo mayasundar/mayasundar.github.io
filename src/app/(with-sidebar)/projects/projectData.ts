@@ -72,6 +72,8 @@ export const projectsData: Record<string, ProjectData> = {
             "For 6 months, I worked on designing the brand identity and wireframes for a student-to-student subletting service, developing the website, and devising the product roadmap and requirements.",
             "I led weekly sprint planning meetings, reporting back to the founders with the deployment timeline and MVP progress. I conducted user interviews and incorporated feedback before deployment."
         ],
+        websiteUrl: "/blog/studentstay-writeup/",
+        websiteText: "case study",
         image: s,
         imageAlt: "studentstay screen"
     },
