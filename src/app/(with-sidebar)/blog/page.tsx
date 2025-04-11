@@ -23,7 +23,7 @@ export default function BlogPage() {
                                         <p>{post.excerpt}</p>
                                     )}
                                 </div>
-                                <p>{post.date}</p>
+                                <p className=" post-date">{post.date}</p>
                             </div>
                         </Link>
                     </div>

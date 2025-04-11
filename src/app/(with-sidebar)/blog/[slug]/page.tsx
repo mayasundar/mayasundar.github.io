@@ -15,6 +15,8 @@ export default async function Post({ params }: { params: Params }) {
         <div className="tbox">
             <h1 className="">{postData.title}</h1>
             <div className="text-gray-600 mb-6">{postData.date}</div>
+            <div className="text-gray-600 mb-6">{postData.excerpt}</div>
+
             <div className="article" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
     );
