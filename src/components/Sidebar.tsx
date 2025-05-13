@@ -39,8 +39,7 @@ const SidebarContent = () => {
 
     const pages = [
         { name: "About", path: "/about" },
-        { name: "Work & Projects", path: "/projects" },
-        { name: "Art", path: "/art" },
+        { name: "Projects", path: "/projects" },
         { name: "Blog", path: "/blog" },
     ];
 
