@@ -1,7 +1,7 @@
 ---    
-title: 'The AI UI Wars'    
+title: 'Towards Better AI Branding'    
 date: '2025-04-21'    
-excerpt: 'Some thoughts on consumer AI branding.'    
+excerpt: 'Some thoughts on consumer AI & why brand flexibility is more important than ever.'    
 ---
 
 ## The Copy Problem
