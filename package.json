@@ -10,6 +10,7 @@
     "deploy": "next build && touch out/.nojekyll && cp CNAME out/ && gh-pages -d out"
   },
   "dependencies": {
+    "@sanity/image-url": "^1.2.0",
     "fs": "^0.0.1-security",
     "gh-pages": "^6.3.0",
     "gray-matter": "^4.0.3",
@@ -18,7 +19,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "sanity": "^5.9.0",
+    "sanity-plugin-tags-v4": "^1.0.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

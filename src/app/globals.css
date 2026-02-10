@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Overpass+Mono:wght@300..700&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Overpass+Mono:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
 
 @tailwind base;
 @tailwind components;
@@ -162,6 +163,7 @@ a:link {
     text-decoration: none;
 }
 
+
 .link:hover {
     text-decoration: underline;
 }
@@ -313,7 +315,6 @@ a:link {
     border-radius: 25px;
     display: inline-flex;
     margin: 3px;
-    padding: 0 6px;
     font-size: 14px;
     font-weight: bold;
 
