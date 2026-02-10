@@ -41,4 +41,9 @@ yarn-error.log*
 next-env.d.ts
 .idea/vcs.xml
 .idea/workspace.xml
+/node_modules/
+/.next
 .idea/workspace.xml
+/.idea
+/node_modules
+/.next
