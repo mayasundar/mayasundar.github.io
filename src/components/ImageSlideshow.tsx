@@ -43,7 +43,6 @@ export default function ImageSlideshow({ images, className = "" }: ImageSlidesho
 
     return (
         <div className={`relative w-full ${className}`}>
-            {/* Main Image */}
             <div className="relative  bg-gray-100 rounded-xl overflow-hidden">
                 {currentImageUrl && (
                     <img
@@ -54,12 +53,11 @@ export default function ImageSlideshow({ images, className = "" }: ImageSlidesho
                     />
                 )}
 
-                {/* Navigation Arrows - Only show if more than 1 image */}
                 {images.length > 1 && (
                     <>
                         <button
                             onClick={goToPrevious}
-                            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors"
+                            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/20 hover:bg-black/10 text-white p-2 rounded-full transition-colors"
                             aria-label="Previous image"
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -68,7 +66,7 @@ export default function ImageSlideshow({ images, className = "" }: ImageSlidesho
                         </button>
                         <button
                             onClick={goToNext}
-                            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors"
+                            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/20 hover:bg-black/10 text-white p-2 rounded-full transition-colors"
                             aria-label="Next image"
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,41 +76,12 @@ export default function ImageSlideshow({ images, className = "" }: ImageSlidesho
                     </>
                 )}
 
-                {/* Image Counter */}
                 {images.length > 1 && (
-                    <div className="absolute bottom-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
+                    <div className="absolute bottom-4 right-4 bg-black/20 text-white px-3 py-1 rounded-full text-sm">
                         {currentIndex + 1} / {images.length}
                     </div>
                 )}
             </div>
-
-            {/* Thumbnail Navigation - Only show if more than 1 image */}
-            {/*{images.length > 1 && (*/}
-            {/*    <div className="flex gap-2 mt-4 overflow-x-auto pb-2">*/}
-            {/*        {images.map((image, index) => {*/}
-            {/*            const thumbnailUrl = urlFor(image)?.width(100).height(75).url();*/}
-            {/*            return thumbnailUrl ? (*/}
-            {/*                <button*/}
-            {/*                    key={index}*/}
-            {/*                    onClick={() => goToSlide(index)}*/}
-            {/*                    className={`flex-shrink-0 w-16 h-12 rounded overflow-hidden border-2 transition-colors ${*/}
-            {/*                        index === currentIndex*/}
-            {/*                            ? 'border-blue-500'*/}
-            {/*                            : 'border-transparent hover:border-gray-300'*/}
-            {/*                    }`}*/}
-            {/*                >*/}
-            {/*                    <img*/}
-            {/*                        src={thumbnailUrl}*/}
-            {/*                        alt={`Thumbnail ${index + 1}`}*/}
-            {/*                        className="w-full h-full object-cover"*/}
-            {/*                        width="100"*/}
-            {/*                        height="75"*/}
-            {/*                    />*/}
-            {/*                </button>*/}
-            {/*            ) : null;*/}
-            {/*        })}*/}
-            {/*    </div>*/}
-            {/*)}*/}
         </div>
     );
 }

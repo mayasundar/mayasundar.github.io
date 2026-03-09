@@ -5,7 +5,7 @@ export default function Navbar() {
 
         <div className="px-4 py-4">
             <div className="mx-auto w-full">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between px-4">
 
                     <div className="flex items-center">
                         <Link href="/" className="text-2xl font-semibold">
