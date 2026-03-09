@@ -16,6 +16,42 @@ const urlFor = (source: SanityImageSource) =>
 
 const options = { next: { revalidate: 30 } };
 
+const portableTextComponents = {
+    block: {
+        h1: ({ children }: any) => (
+            <h1 className="text-3xl font-bold mt-12 mb-4">{children}</h1>
+        ),
+        h2: ({ children }: any) => (
+            <h2 className="text-2xl font-bold mt-10 mb-4">{children}</h2>
+        ),
+        h3: ({ children }: any) => (
+            <h3 className="text-xl font-bold mt-8 mb-3">{children}</h3>
+        ),
+        h4: ({ children }: any) => (
+            <h4 className="text-lg font-bold mt-6 mb-3">{children}</h4>
+        ),
+        normal: ({ children }: any) => (
+            <p className="mb-4 leading-relaxed">{children}</p>
+        ),
+    },
+    list: {
+        bullet: ({ children }: any) => (
+            <ul className="list-disc ml-6 mb-4 space-y-2">{children}</ul>
+        ),
+        number: ({ children }: any) => (
+            <ol className="list-decimal ml-6 mb-4 space-y-2">{children}</ol>
+        ),
+    },
+    listItem: {
+        bullet: ({ children }: any) => (
+            <li className="leading-relaxed">{children}</li>
+        ),
+        number: ({ children }: any) => (
+            <li className="leading-relaxed">{children}</li>
+        ),
+    },
+};
+
 export default async function PostPage({
                                            params,
                                        }: {
@@ -56,21 +92,10 @@ export default async function PostPage({
             <Link href="/" className="hover:underline">
                 ← Back to posts
             </Link>
-            {postImageUrl && (
-                <img
-                    src={postImageUrl}
-                    alt={project.title}
-                    className="aspect-video rounded-xl"
-                    width="550"
-                    height="310"
-                />
-            )}
+
             <div className="flex items-center gap-4 align-middle">
                 <div className="text-4xl font-bold mb-8">{project.title}</div>
                 <div className="text-3xl font-bold mb-8">{renderExternalLinks()}</div>
-            </div>
-            <div className="prose">
-                {Array.isArray(project.body) && <PortableText value={project.body} />}
             </div>
 
             {slideshowImages.length > 0 && (
@@ -79,6 +104,16 @@ export default async function PostPage({
                     className="hover:opacity-90 transition-opacity cursor-pointer"
                 />
             )}
+
+            <div className="prose prose-lg max-w-none">
+                {Array.isArray(project.body) && (
+                    <PortableText
+                        value={project.body}
+                        components={portableTextComponents}
+                    />
+                )}
+            </div>
+
         </main>
     );
 }

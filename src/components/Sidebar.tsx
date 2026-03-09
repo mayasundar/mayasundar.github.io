@@ -58,8 +58,8 @@ const SidebarContent = () => {
             <div className="pages-layers">
                 <h4 className="text-sm font-semibold text-gray-600">Pages</h4>
                 <div>
-                    <div className="layer-group-container">
-                        <div className="space-y-1">
+                    <div className="layer-group-container m-2">
+                        <div className="space-y-1 mb-4">
                         {pages.map((page) => (
                         <Link
                             key={page.path}
@@ -80,7 +80,7 @@ const SidebarContent = () => {
                     <h4 className="text-sm font-semibold text-gray-600">Layers</h4>
                     {isWorkPage && (
                         <div className="layer-group-container">
-                            <div className="space-y-1">
+                            <div className="space-y-1 mb-4">
                                 {workGroups.map((group) => (
                                     <div key={group.id}>
                                         <button
