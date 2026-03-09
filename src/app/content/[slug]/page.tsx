@@ -4,6 +4,7 @@ import type { SanityImageSource } from "@sanity/image-url/lib/types/types";
 import { client } from "@/sanity/client";
 import Link from "next/link";
 import Image from "next/image";
+import ImageSlideshow from "@/components/ImageSlideshow";
 
 const POST_QUERY = `*[_type == "project" && slug.current == $slug][0]`;
 
@@ -25,47 +26,58 @@ export default async function PostPage({
         ? urlFor(project.image)?.width(550).height(310).quality(100).url()
         : null;
 
+    const slideshowImages = [];
+    if (project.image) {
+        slideshowImages.push(project.image);
+    }
+    if (project.imagesGallery && Array.isArray(project.imagesGallery)) {
+        const galleryImages = project.imagesGallery.filter(img => img._key !== project.image?._key);
+        slideshowImages.push(...galleryImages);
+    }
+
+    const renderExternalLinks = () => {
+        if (project.externalLinks && Array.isArray(project.externalLinks)){
+            for (const link of project.externalLinks) {
+                if (link){
+                    return (
+                        <a key={link._key} href={link.url} target="_blank" rel="noopener noreferrer" className="external-link tool website">
+                            {link.label || link.url}
+                        </a>
+                    );
+
+                }
+            }
+        }
+        return null;
+    }
+
     return (
-        <main className="container mx-auto min-h-screen max-w-3xl p-8 flex flex-col gap-4">
+        <main className=" mx-auto min-h-screen max-w-3xl p-8 flex flex-col gap-4">
             <Link href="/" className="hover:underline">
                 ← Back to posts
             </Link>
-            {/*{postImageUrl && (*/}
-            {/*    <img*/}
-            {/*        src={postImageUrl}*/}
-            {/*        alt={project.title}*/}
-            {/*        className="aspect-video rounded-xl"*/}
-            {/*        width="550"*/}
-            {/*        height="310"*/}
-            {/*    />*/}
-            {/*)}*/}
-            <h1 className="text-4xl font-bold mb-8">{project.title}</h1>
+            {postImageUrl && (
+                <img
+                    src={postImageUrl}
+                    alt={project.title}
+                    className="aspect-video rounded-xl"
+                    width="550"
+                    height="310"
+                />
+            )}
+            <div className="flex items-center gap-4 align-middle">
+                <div className="text-4xl font-bold mb-8">{project.title}</div>
+                <div className="text-3xl font-bold mb-8">{renderExternalLinks()}</div>
+            </div>
             <div className="prose">
-                <p>Published: {new Date(project.publishedAt).toLocaleDateString()}</p>
                 {Array.isArray(project.body) && <PortableText value={project.body} />}
             </div>
 
-            {/* Image Gallery */}
-            {project.imagesGallery && Array.isArray(project.imagesGallery) && project.imagesGallery.length > 0 && (
-                <div className="mt-8">
-                    <h2 className="text-2xl font-semibold mb-4">Gallery</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {project.imagesGallery.map((image: any, index: number) => {
-                            const imageUrl = urlFor(image)?.width(400).height(300).quality(100).url();
-                            return imageUrl ? (
-                                <div key={index} className="overflow-hidden rounded-lg">
-                                    <Image
-                                        src={imageUrl}
-                                        alt={image.alt || `Gallery image ${index + 1}`}
-                                        className="w-full h-48 object-cover"
-                                        width={400}
-                                        height={300}
-                                    />
-                                </div>
-                            ) : null;
-                        })}
-                    </div>
-                </div>
+            {slideshowImages.length > 0 && (
+                <ImageSlideshow
+                    images={slideshowImages}
+                    className="hover:opacity-90 transition-opacity cursor-pointer"
+                />
             )}
         </main>
     );
