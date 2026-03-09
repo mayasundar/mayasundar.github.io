@@ -4,7 +4,7 @@ export default function Involvement() {
     return (
         <div>
             <h3>Community ☺&#xFE0E;</h3>
-            <ul>
+            <ul className="list-disc">
                 <li>
                     I'm an organizer with <Link className="link" href="https://columbiaintech.com" target="_blank" rel="noopener noreferrer">Columbia in Tech</Link>
                     , a community of Columbia alumni working in technology. I work on our brand & digital strategy.

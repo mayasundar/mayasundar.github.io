@@ -3,7 +3,7 @@ export default function Interests() {
         <div>
             <p>I recently graduated from Columbia University, where I studied computer science and English.</p>
             <p>I care about</p>
-            <ul>
+            <ul className="list-disc">
                 <li>design-driven engineering</li>
                 <li>user experience</li>
                 <li>product & brand identity</li>

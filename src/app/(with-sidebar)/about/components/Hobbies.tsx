@@ -2,7 +2,7 @@ export default function Hobbies() {
     return (
         <div>
             <p>I like</p>
-            <ul>
+            <ul className="list-disc">
                 <li>figuring out how my favorite software products work</li>
                 <li>spending lots of time in Figma</li>
                 <li>designing typefaces</li>
