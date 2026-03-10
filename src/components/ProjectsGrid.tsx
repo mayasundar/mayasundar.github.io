@@ -79,8 +79,7 @@ export default function IndexPageClient({ posts }: IndexPageClientProps) {
             <Navbar/>
             <main className="mx-auto p-8 w-full h-full justify-between">
                 {allTags.length > 0 && (
-                    <div className="mb-8 px-4 py-4 bg-[#EDDFDE]/50 rounded-lg max-w-7xl mx-auto">
-                        <div className="flex items-center justify-between mb-3">
+                    <div className="mb-8 px-4 py-4 bg-[#F2E8E8]/50 rounded-lg lg:max-w-[calc(50%-12px)] sm:max-w-full">                        <div className="flex items-center justify-between mb-3">
                             <h3 className="text-lg font-semibold">Filter by tags:</h3>
                             {selectedTags.length > 0 && (
                                 <button
@@ -119,7 +118,7 @@ export default function IndexPageClient({ posts }: IndexPageClientProps) {
                     </div>
                 )}
 
-                <div className="columns-2 sm:columns-2 lg:max-columns-3 gap-6">
+                <div className="columns-1 md:columns-2 lg:columns-2 gap-6">
                     {filteredPosts.length === 0 ? (
                         <p className="text-center text-gray-500 py-8 col-span-full">
                             No projects found with the selected tags.
@@ -138,16 +137,14 @@ export default function IndexPageClient({ posts }: IndexPageClientProps) {
                             return (
                                 <div key={post._id} className="break-inside-avoid mb-6">
                                     <article className="bg-white p-8 rounded-sm w-full">
-                                        <div className="flex items-center gap-4 align-middle">
-                                            <Link href={`/content/${post.slug.current}`} className="group">
-                                                <h2 className="text-2xl font-bold mb-4 group-hover:underline">
+                                        <div className="mb-4">
+                                            <Link href={`/content/${post.slug.current}`} className="group inline-block">
+                                                <h2 className="text-2xl font-bold group-hover:underline inline">
                                                     {post.title}
                                                 </h2>
                                             </Link>
-
-                                            <div className="text-3xl font-bold mb-4">{renderExternalLinks(post)}</div>
+                                            <span className="text-3xl font-bold ml-4">{renderExternalLinks(post)}</span>
                                         </div>
-
                                         {post.tags && post.tags.length > 0 && (
                                             <div className="mb-4">
                                                 {post.tags.map((tag: string, index: number) => {
