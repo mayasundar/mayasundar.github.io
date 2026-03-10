@@ -79,7 +79,7 @@ export default function IndexPageClient({ posts }: IndexPageClientProps) {
             <Navbar/>
             <main className="mx-auto p-8 w-full h-full justify-between">
                 {allTags.length > 0 && (
-                    <div className="mb-8 px-4 py-4 bg-[#F2E8E8]/50 rounded-lg lg:max-w-[calc(50%-12px)] sm:max-w-full">                        <div className="flex items-center justify-between mb-3">
+                    <div className="mb-4 px-4 py-4 bg-[#F2E8E8]/50 rounded-lg lg:max-w-[calc(50%-12px)] sm:max-w-full">                        <div className="flex items-center justify-between mb-3">
                             <h3 className="text-lg font-semibold">Filter by tags:</h3>
                             {selectedTags.length > 0 && (
                                 <button
