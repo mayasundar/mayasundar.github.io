@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/assistive-staging",
+      "destination": "https://assistive-staging.vercel.app"
+    },
+    {
+      "source": "/assistive-staging/:path*",
+      "destination": "https://assistive-staging.vercel.app/:path*"
+    }
+  ]
+}
