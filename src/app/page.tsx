@@ -5,12 +5,13 @@ import ProjectsGrid from "@/components/ProjectsGrid";
 const POSTS_QUERY = `*[
   _type == "project"
   && defined(slug.current)
-]|order(publishedAt desc)[0...12]{
+]|order(priority asc, publishedAt desc)[0...12]{
   _id, 
   title, 
   slug, 
   summary,
   tags,
+  priority,
   publishedAt, 
   image,
   externalLinks,
