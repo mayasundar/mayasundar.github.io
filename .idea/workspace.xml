@@ -8,7 +8,6 @@
       <changelist_data name="maya :)" email="64454649+mayasundar@users.noreply.github.com" date="1770758430000" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1773069388147" duration="19039000" />
       <workItem from="1773091902306" duration="8316000" />
       <workItem from="1788108632358" duration="664000" />
-      <workItem from="1788139119386" duration="942000" />
+      <workItem from="1788139119386" duration="1540000" />
     </task>
     <servers />
   </component>

@@ -12,15 +12,15 @@ const nextConfig: NextConfig = {
         return [
             {
                 source: '/assistive-staging',
-                destination: 'https://assistive-staging.vercel.app',
+                destination: 'https://assistive-staging.vercel.app/assistive-staging',
             },
             {
                 source: '/assistive-staging/',
-                destination: 'https://assistive-staging.vercel.app',
+                destination: 'https://assistive-staging.vercel.app/assistive-staging',
             },
             {
                 source: '/assistive-staging/:path*',
-                destination: 'https://assistive-staging.vercel.app/:path*',
+                destination: 'https://assistive-staging.vercel.app/assistive-staging/:path*',
             },
         ];
     },
